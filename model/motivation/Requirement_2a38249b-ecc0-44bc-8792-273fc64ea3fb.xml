@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BFP010: Som API-konsument ønsker jeg å bare lese endringer som er gjort på siste oppdatering slik at vi slipper å lese hele datasettet.  "
+    id="2a38249b-ecc0-44bc-8792-273fc64ea3fb"/>

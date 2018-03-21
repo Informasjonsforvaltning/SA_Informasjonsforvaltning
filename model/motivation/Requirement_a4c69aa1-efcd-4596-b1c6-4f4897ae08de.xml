@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BTI010 Som API-tilbyder ønsker jeg å kunne se om andre tilbyr det samme eller nesten det samme som meg, så at det er mulig å harmonisere mellom “oss”  [Livar: Case der det er fleire API-er som tilbyr det samme?  Marit: Brreg og Skatt som har same datasett i FDK.   Mathias: Felles studentsystem (FS) i UH-sektoren innheld personinformasjon. Kan ikkje konsoliderast med HR-data. Kan ikkje legge ned ein av dei.  Dekker relasjonsfeltet i DCAT behovet?]  "
+    id="a4c69aa1-efcd-4596-b1c6-4f4897ae08de"/>

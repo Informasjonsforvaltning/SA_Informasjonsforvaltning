@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BFP016: Som API-konsument ønsker jeg en oversikt over hvilke versjoner som er tilgjengelig i hvilke miljø slik at jeg vet hva jeg kan teste mot. (prod og test) "
+    id="b64b39f5-9d5f-407a-a3f0-d525a594982d"/>

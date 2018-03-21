@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BFP001: Som API-forvalter ønsker jeg at det knyttes opplysninger om sikkerhetsvurderinger tilknyttet felt i API’et (identifiserende, lokaliserende, krav til sikring, osv.) slik at hensyn til innebygd personvern i større grad er ivaretatt for det datasettet som publiseres.  "
+    id="11842fa3-1e20-456e-bbe3-fff37308a7fd"/>

@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BAM17 - Som ansvarlig for API-management ønsker jeg at å tilby effektiv selvregistrering av brukere av API-ene, f.eks. gjennom autentisering via ID-porten/Altinn av dem som tar i bruk API-ene, slik at jeg senker terskelen for å ta API-et i bruk, samtidig som jeg beholder nødvendig oversikt over brukere.     "
+    id="4118f54f-7e06-420b-b9cf-407e61e823bf"/>

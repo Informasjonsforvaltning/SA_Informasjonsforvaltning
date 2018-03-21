@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BTI007 Som konsument av data fra kommunene ønsker jeg at kommunene tilbyr felles API for den samme informasjonen, uavhengig av hvilket fagsystem/hvilke leverandører de bruker for å forvalte informasjonen, slik at integrasjonen jeg utvikler mot én kommune kan gjenbrukes mot de resterende ca 400 kommunene.  "
+    id="f17f8745-1c54-4265-8bd3-ae7fb96c6b06"/>
