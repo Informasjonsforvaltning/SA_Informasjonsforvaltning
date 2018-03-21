@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BB29. Som API-konsument ønsker jeg en god mekanisme for å få beskjed om endringer i API eller dataformat (f.eks. ikke-brytende-endring som nye felt i dataformatet) slik at jeg kan tilpasse konsum av data når dataformatet blir endret eller utvidet.[varsel] "
+    id="fa1a8726-cba7-4113-b6b9-6f436b0f06c4"/>

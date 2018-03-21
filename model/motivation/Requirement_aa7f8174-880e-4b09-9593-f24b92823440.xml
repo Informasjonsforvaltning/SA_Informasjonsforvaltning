@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB28. Som API-konsument ønsker jeg at API-et har god ytelse slik at jeg kan gjøre enkeltoppslag og ikke blir tvunget til å laste ned hele datasettet fordi API-et har lav ytelse.  [tjenestenivå]  "
+    id="aa7f8174-880e-4b09-9593-f24b92823440"/>

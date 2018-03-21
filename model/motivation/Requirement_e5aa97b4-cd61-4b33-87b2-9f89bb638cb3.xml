@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB24. Som API-konsument (ETL) ønsker, jeg stabile API-er som er uavhengige av underliggende data slik at jeg ikke trenger å følge med endringer i data formater/strukturer. [forutsigbarhet]  "
+    id="e5aa97b4-cd61-4b33-87b2-9f89bb638cb3"/>

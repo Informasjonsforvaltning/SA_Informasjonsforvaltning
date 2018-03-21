@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB31. Som API-konsument ønsker jeg at datasett som er gjort tilgjengelig for nedlasting har et forutsigbart URL-regime for siste versjon og historiske data slik at nedlasting kan automatiseres. [nedlasting, forutsigbarhet]  "
+    id="9ae010c3-370a-45db-b5c3-ac788fe77c96"/>

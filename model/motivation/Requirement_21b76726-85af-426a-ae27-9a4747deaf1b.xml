@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BFP024: Som API-konsument ønsker jeg i de tilfeller hvor API er basert på et lukket datasett å koble meg til et miljø med syntetisk data for bruk i utvikling og test. "
+    id="21b76726-85af-426a-ae27-9a4747deaf1b"/>

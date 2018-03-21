@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB27. Som API-konsument ønsker jeg å kunne laste ned en komplett versjon av datasettet i tillegg til API-funksjonalitet slik at jeg kan kjøre analyse på en lokal kopi av datasettet der dette er mest hensiktsmessig.[nedlasting] "
+    id="b8b8cd7a-e95f-453c-9580-eb8840ee80f7"/>

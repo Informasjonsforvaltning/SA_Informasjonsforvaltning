@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB26. Som API-konsument ønsker jeg at API-ene jeg har tilgang til er de samme som API-forvalteren selv benytter til sin tjenesteutvikling, slik at jeg kan ha tillit til at forvaltning og videreutviklingen av API-ene gis prioritet og er verdt å bruke tid på å lære, gjøre bruk av [tjenestenivå/sla]  "
+    id="19ba171c-0ab7-477a-89fc-cf54e1a1e314"/>

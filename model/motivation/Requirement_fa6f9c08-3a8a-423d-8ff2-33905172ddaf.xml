@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB25. Som API-konsument (ETL) ønsker jeg mulighet til å abonnere på endringsvarslinger om både data og API-versjoner slik at jeg kan oppfriske data og/eller utnytte nye datafelter. [varsel]  "
+    id="fa6f9c08-3a8a-423d-8ff2-33905172ddaf"/>

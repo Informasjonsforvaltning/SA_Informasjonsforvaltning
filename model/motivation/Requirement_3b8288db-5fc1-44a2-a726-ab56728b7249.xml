@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BB32. Som API-konsument (datajournalist) ønsker jeg at strukturen i datasettene er stabile, slik at jeg ikke trenger gjøre endringer i min integrasjon/kode når nye versjoner hentes. [forutsigbarhet] "
+    id="3b8288db-5fc1-44a2-a726-ab56728b7249"/>

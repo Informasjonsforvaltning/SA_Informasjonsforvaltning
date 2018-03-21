@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BB3. Som API-konsument ønsker jeg å gjøre spørringer som gir meg dataene jeg har rettighet til å få (og ikke blir blokkert tilgang fordi API-et bare gir tilgang til mer data enn jeg har rettigheter til), slik at jeg kan få tilgang til data [rettigheter] "
+    id="068f09d1-e235-46c1-b250-12960840951a"/>

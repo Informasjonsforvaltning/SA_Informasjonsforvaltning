@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BB1. Som API-konsument ønsker jeg et spørregrensesnitt (SQL-aktig/SPARQL/ODATA/GraphQL/NoSQL) mot API-et slik at jeg kan utforske datasettet og datasettets struktur/datamodell interaktivt som suplement til å lese dokumentasjon "
+    id="6f824d78-e318-4527-a0f9-6f011754303c"/>

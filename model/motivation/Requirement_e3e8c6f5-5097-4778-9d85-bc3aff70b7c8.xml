@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name=" BB36. Som API-konsument (ETL) ønsker jeg å unngå å laste komplette datasett og heller få de delene som har endret seg siden sist jeg lastet ned datasett slik at jeg minimerer egen ressursbruk. [varsel]  "
+    id="e3e8c6f5-5097-4778-9d85-bc3aff70b7c8"/>

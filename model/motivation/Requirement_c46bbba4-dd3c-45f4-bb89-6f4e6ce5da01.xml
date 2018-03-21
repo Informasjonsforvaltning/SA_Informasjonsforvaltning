@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BB33. Som API-konsument ønsker jeg å kunne laste ned kun endringer i et datasett for å oppdatere min lokale kopi av et datasett slik at jeg slipper å laste ned hele datasettet på nytt og import-jobben blir mindre. [varsel] "
+    id="c46bbba4-dd3c-45f4-bb89-6f4e6ce5da01"/>
