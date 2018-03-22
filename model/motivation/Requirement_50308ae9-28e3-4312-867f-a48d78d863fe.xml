@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA5. Som API-konsument ønsker jeg at alle begreper linker direkte til en forklaring av begrepet slik at jeg slipper å lete gjennom dokumentasjonen. [kommentar: forskjell på begrep i den tekniske dokumentasjonen (f.eks. parameter i forespørsel) vs. begrep i datasettet (f.eks. fagtermer)] "
+    id="50308ae9-28e3-4312-867f-a48d78d863fe"/>

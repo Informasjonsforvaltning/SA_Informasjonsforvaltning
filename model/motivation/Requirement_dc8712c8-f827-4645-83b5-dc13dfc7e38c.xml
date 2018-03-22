@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="34. Som API-katalogeier som ikke har en katalog, så ønsker jeg enkel måte å eksponere API-er på, ikke egen katalog med maskinlesbar beskrivelse, slik at jeg slipper å lage et eget verktøy med egne beskrivelser. "
+    id="dc8712c8-f827-4645-83b5-dc13dfc7e38c"/>

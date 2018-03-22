@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA16. Som API-konsument ønsker jeg at API-et tåler stor trafikk slik at jeg kan bruke API-et direkte i applikasjon"
+    id="60ecfabc-dd7a-48d8-9916-de60efeeb506"/>

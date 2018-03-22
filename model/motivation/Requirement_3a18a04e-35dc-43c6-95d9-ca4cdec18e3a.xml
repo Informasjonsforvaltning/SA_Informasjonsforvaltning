@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA26. Som API-konsument ønsker jeg at API-et støtter CORS slik at jeg kan nå det fra en webapplikasjon uten å måtte gå via egen backend eller proxy. "
+    id="3a18a04e-35dc-43c6-95d9-ca4cdec18e3a"/>

@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA53. Som API-konsument ønsker jeg at API-et støtter HTTP-standard med accept header for å velge data-format slik at kan gjøre det jeg er vant til. "
+    id="1ab2d71f-bb05-4a39-8423-fa7b47153b81"/>

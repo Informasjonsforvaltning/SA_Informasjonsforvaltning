@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA24. Som API-konsument ønsker jeg, når jeg får en respons fra et datasett, en henvisning til arkiverte versjoner av “det samme” datasettet (med elementer som ikke lenger finnes i det løpende datasettet), slik at jeg kan gi en mer komplett respons til brukeren. "
+    id="fdcabb12-b107-42d1-be85-5c499884acaa"/>

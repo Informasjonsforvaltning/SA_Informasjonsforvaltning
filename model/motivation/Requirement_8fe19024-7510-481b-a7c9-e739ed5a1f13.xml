@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA13. Som API-konsument ønsker jeg at Tableau/R/etc kan hente inn data for meg slik at jeg kan lage visualiseringer uten å måtte vite noe om API-er. "
+    id="8fe19024-7510-481b-a7c9-e739ed5a1f13"/>

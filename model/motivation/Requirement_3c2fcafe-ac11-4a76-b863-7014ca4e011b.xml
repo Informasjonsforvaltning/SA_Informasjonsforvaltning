@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="32. Som API-bruker ønsker jeg å registrere en anvendelse slik at jeg kan oppgi den i API-kallet. Alternativt: Som API-forvalter ønsker jeg at brukere kan registrere seg med en ID som de bruker i API-kallet slik at jeg kan koble trafikk og anvendelse. [f.eks. ved overbruk av API-et kan man lett kontakte den som har satt opp anvendelsen] "
+    id="3c2fcafe-ac11-4a76-b863-7014ca4e011b"/>

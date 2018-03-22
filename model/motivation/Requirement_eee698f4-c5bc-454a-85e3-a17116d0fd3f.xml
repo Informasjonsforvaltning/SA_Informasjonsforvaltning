@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="5. Som API-forvalter ønsker jeg at API-katalogen kan vise min Swagger-dokumentasjon slik at jeg bare kan eksponere for eksempel Swagger-data (YAML) og slipper å drifte min egen Swagger UI-nettside.  [relatert til Swagger-brukerhistorien, trur eg]  "
+    id="eee698f4-c5bc-454a-85e3-a17116d0fd3f"/>

@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA2. Som API-konsument ønsker jeg umiddelbar tilgang (slipper å vente på manuell tildeling av API-nøkler og tokens) til data (eller testdata) slik at jeg kan vurdere og eventuelt ta i bruk API-et umiddelbart."
+    id="b7f8ca17-9fea-4759-aa40-75f7a3357f87"/>

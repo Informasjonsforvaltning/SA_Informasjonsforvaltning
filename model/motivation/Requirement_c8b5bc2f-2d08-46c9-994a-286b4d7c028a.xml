@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA46. Som API-konsument ønsker jeg mulighet for å bruke filtre i API-et slik at jeg kan ha bedre kontroll med hvilket utvalg av data jeg mottar, og ikke er avhengig av hvilke utvalg API-forvalteren har definert. "
+    id="c8b5bc2f-2d08-46c9-994a-286b4d7c028a"/>

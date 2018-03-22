@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA43. Som API-konsument ønsker jeg å bli varslet om at et API er “deprecated” (skal tas ut av bruk), slik at jeg kan oppdatere min applikasjon. "
+    id="e5947672-3357-4f04-a2a8-edc36c123ff2"/>

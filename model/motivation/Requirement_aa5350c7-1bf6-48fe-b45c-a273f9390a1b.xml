@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA19. Som API-konsument ønsker jeg API der kodeverk (f.eks. kommunenummer, næringskoder) er en del av API-responsen slik at jeg slipper å utføre flere API-kall og hente fra ulike kilder for å få data jeg trenger."
+    id="aa5350c7-1bf6-48fe-b45c-a273f9390a1b"/>

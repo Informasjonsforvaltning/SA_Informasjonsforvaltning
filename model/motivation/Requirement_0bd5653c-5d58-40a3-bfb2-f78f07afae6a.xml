@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA38. Som API-konsument ønsker jeg (kanskje ....) HATEOAS og linked data-baserte API (for eks. JSON-LD/RDF-representasjoner) slik at jeg kan se hvilke opsjoner jeg har basert på de responsene jeg allerede har fått (den tilstanden jeg er i).  [Kommentar frå Steinar: “basert på én informant ... han var tydelig på at han hadde gode erfaringer med API-er med RDF-data”]"
+    id="0bd5653c-5d58-40a3-bfb2-f78f07afae6a"/>

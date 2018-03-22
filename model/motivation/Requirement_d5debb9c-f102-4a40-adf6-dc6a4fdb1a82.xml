@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA54. Som API-konsument ønsker jeg REST-API-er i tråd med REST-prinsippene/beste praksis slik at jeg kan bygge på erfaringene mine med andre REST-API-er, og forstå effekten av kallene i API-et med minst mulig teknisk dokumentasjon. "
+    id="d5debb9c-f102-4a40-adf6-dc6a4fdb1a82"/>

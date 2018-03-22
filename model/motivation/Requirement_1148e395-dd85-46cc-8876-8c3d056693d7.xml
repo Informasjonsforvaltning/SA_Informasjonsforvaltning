@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA8. Som API-konsument ønsker jeg mulighet til enkelt å teste API-ene (utforske) f.eks. gjennom Swagger eller tilsvarende, slik at jeg raskere forstår API-et, og raskere klarer å bruke det (riktig) [ref BA7]."
+    id="1148e395-dd85-46cc-8876-8c3d056693d7"/>

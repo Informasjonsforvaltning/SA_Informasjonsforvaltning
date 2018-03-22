@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA41. Som API-konsument som benytter verktøy for å generere deler av kildekoden ønsker jeg at API-et er dokumentert iht “Open API Specification”, slik at jeg kan bruke kodegenereringsverktøy for å generere mye av den kildekoden som trengs for å bruke API-et fremfor å måtte skrive den selv [ref epost] "
+    id="e7545d0e-ba29-4bdc-a30e-01fd63ba008c"/>

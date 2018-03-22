@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA15. Som API-konsument ønsker jeg at alt jeg er avhengig av for applikasjonen min er tilgjengelig fra samme server, inklusive kodeverk, slik at CORS opprettholdes. "
+    id="51bf46bd-86f5-4843-b01d-b36a39171a7c"/>

@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA11. Som API-konsument ønsker jeg at jeg kan bytte til nye versjoner av API-et når det passer meg [Kommentar frå Livar: Litt usikker på denne. Her er det kanskje snakk om versjonering av API, at ein sjølv kan velje når tid ein byttar til ny versjon av API? I motsetnad til at eit API ikkje er versjonert og ved &quot;breaking-changes&quot; så må ein forholde seg til når API-et gjer eit brått hopp til ny versjon?] "
+    id="f7c2dfb6-5e1c-48a3-a010-a04ade31e115"/>

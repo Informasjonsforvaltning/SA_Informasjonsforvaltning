@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA42. Som API-konsument ønsker jeg varsler om “breaking changes” slik at jeg kan gjøre de nødvendige endringene før de brekker mine systemer/applikasjoner også. [f.eks. ved registrere e-postadresse] "
+    id="eece0a70-8ff5-40d7-b33c-d4be3cb8e8b8"/>

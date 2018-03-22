@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA25. Som API-konsument ønsker jeg at beskrivelser av API-er som ikke lengre er tilgjengelige, skal fjernes fra API-katalogen, slik at jeg slipper å lese om API-er som jeg uansett ikke kan bruke."
+    id="9c20449c-7a67-4db9-817f-5b4761c28d8b"/>

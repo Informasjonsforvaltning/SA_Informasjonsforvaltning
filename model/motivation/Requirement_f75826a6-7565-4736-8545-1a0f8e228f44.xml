@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA37. Som API-konsument ønsker jeg at tilgjengelige API-er er robuste slik at jeg kan anta at integrasjonen fungerer også ved høy trafikk"
+    id="f75826a6-7565-4736-8545-1a0f8e228f44"/>

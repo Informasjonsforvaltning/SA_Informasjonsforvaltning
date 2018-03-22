@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA12. Som API-konsument ønsker jeg å hente inn data uavhengig av dataenes egentlig form slik at den ikke endrer seg når dataformatet endres. "
+    id="5b743a97-a6bf-446c-88bd-0332583f9fbc"/>

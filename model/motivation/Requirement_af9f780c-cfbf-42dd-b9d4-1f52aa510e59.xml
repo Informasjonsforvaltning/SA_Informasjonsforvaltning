@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA45.  Som API-konsument ønsker jeg et API med gode muligheter for å filtrere data slik at jeg kan hente ut akkurat det utsnittet av datasettet som jeg trenger til mitt formål og slipper å gjøre ekstra prosessering av responsen jeg får fra API-et. "
+    id="af9f780c-cfbf-42dd-b9d4-1f52aa510e59"/>

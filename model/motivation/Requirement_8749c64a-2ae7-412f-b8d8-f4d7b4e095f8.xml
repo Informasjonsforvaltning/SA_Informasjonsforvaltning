@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BA17. Som API-konsument ønsker jeg beskrivelse av API-et sin kapasitet slik at jeg vet om jeg trenger en egen server for sluttbrukerapplikasjoner ved svært høy trafikk."
+    id="8749c64a-2ae7-412f-b8d8-f4d7b4e095f8"/>
