@@ -39,9 +39,9 @@
           href="AssignmentRelationship_39b9ac7a-ecbb-4525-bab9-214aac09e641.xml#39b9ac7a-ecbb-4525-bab9-214aac09e641"/>
     </sourceConnections>
     <bounds
-        x="300"
+        x="287"
         y="72"
-        width="120"
+        width="145"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
@@ -139,7 +139,7 @@
         x="542"
         y="141"
         width="120"
-        height="55"/>
+        height="76"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_b8a49d1d-2368-4977-aac5-d68768aebc05.xml#b8a49d1d-2368-4977-aac5-d68768aebc05"/>
