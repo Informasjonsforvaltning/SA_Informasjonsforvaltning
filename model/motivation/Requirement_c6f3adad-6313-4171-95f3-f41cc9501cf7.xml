@@ -1,4 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BFP025: Som API-konsument ønsker jeg å se hvilke muligheter det finnes for konfigurasjon både hos meg og hos API-leverandør for å begrense tilgjengelig data til mitt faktiske formål. "
+    name="BFP025: Som API-konsument ønsker jeg å se hvilke muligheter det finnes for konfigurasjon både hos meg og hos API-leverandør for å begrense tilgjengelig data til mitt faktiske formål.  Kommentar: Dataminimering?"
     id="c6f3adad-6313-4171-95f3-f41cc9501cf7"/>
