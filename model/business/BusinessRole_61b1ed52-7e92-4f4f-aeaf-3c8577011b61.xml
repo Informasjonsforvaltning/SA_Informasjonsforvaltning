@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API-konsument (design time)"
     id="61b1ed52-7e92-4f4f-aeaf-3c8577011b61"
-    documentation="en bruker av API, i hovedsak en utvikler i forvaltningen eller i det private. F.eks. bankene som benytter Skattemeldingsdata fra SKD ved lånesøknad."/>
+    documentation="en bruker av API, i hovedsak en utvikler i forvaltningen eller i det private. F.eks. bankene som benytter Skattemeldingsdata fra SKD ved lånesøknad. Kan også være driftspersonell."/>

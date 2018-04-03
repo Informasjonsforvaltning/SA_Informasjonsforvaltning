@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BFDK13 - Som konsument av et åpent api ønsker jeg informasjon om hvor pålitelig leveransen av data er (forventet oppetid, responstid ved feil osb) slik at jeg kan gjøre en tilstrekkelig ROS-analyser for min integrasjon "
+    id="a607487c-d375-4f5c-91d5-b7d2e81860da"/>

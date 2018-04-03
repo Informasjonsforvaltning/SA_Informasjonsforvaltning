@@ -1,5 +1,5 @@
 <archimate:BusinessRole
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="API-mangement"
+    name="API-mangement (verktøy leverandør)"
     id="b8a49d1d-2368-4977-aac5-d68768aebc05"
-    documentation="?"/>
+    documentation="Er dette verktøyleverandøren, eller en rolle som er ansvarlig i virksomheten for bl.a. tilgang til data og slik sett mer i retning av den som bruker et API-management verktøy (en forretningsmessig og ikke IT-funksjon?) ? Hvis blanding, skill på disse."/>
