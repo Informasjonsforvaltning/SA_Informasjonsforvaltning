@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="API-katalogen brukerhistorier"
+    name="Brukerhistorier API-katalog"
     id="40944324-3dea-440a-8386-832ac902fdec">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
