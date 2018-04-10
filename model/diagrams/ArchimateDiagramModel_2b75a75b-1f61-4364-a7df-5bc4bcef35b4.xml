@@ -2446,7 +2446,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="6b981323-3317-42dd-844b-ef9e187e25b2"
-      targetConnections="8cec9e3c-1dd5-4656-8839-0ac9cbdac690 58c3674a-2563-47ef-8a5f-39f3ff5efbab">
+      targetConnections="8cec9e3c-1dd5-4656-8839-0ac9cbdac690 58c3674a-2563-47ef-8a5f-39f3ff5efbab fbf75962-b38f-4a8f-9f46-58a1e794f3a8 18f2baeb-dfd9-44b4-97e3-a601cc1b8148">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="288535a4-ea6e-4476-b82d-cc9fb960614e"
@@ -3122,6 +3122,15 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_53334676-64de-4b15-9800-4760d20991ca.xml#53334676-64de-4b15-9800-4760d20991ca"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="18f2baeb-dfd9-44b4-97e3-a601cc1b8148"
+        source="46920db2-e918-490c-b818-724709a6617d"
+        target="6b981323-3317-42dd-844b-ef9e187e25b2">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_234168a2-82c2-408d-ac9b-028ad587f10b.xml#234168a2-82c2-408d-ac9b-028ad587f10b"/>
     </sourceConnections>
     <bounds
         x="1068"
@@ -4228,6 +4237,15 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_9c329375-b591-4a27-827c-67db3daedc2e.xml#9c329375-b591-4a27-827c-67db3daedc2e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="fbf75962-b38f-4a8f-9f46-58a1e794f3a8"
+        source="88f84237-fa15-4e3f-9018-dd41e61e38a1"
+        target="6b981323-3317-42dd-844b-ef9e187e25b2">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_55505951-26f2-4257-affe-275e38987782.xml#55505951-26f2-4257-affe-275e38987782"/>
     </sourceConnections>
     <bounds
         x="1068"
