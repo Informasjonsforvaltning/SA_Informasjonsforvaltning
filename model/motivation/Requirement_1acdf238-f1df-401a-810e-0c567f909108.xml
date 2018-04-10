@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som utvikler i Altinn ønsker jeg å kunne registrere de API jeg utvikler for mine T.3 applikasjoner slik at &lt;hensikt>"
+    id="1acdf238-f1df-401a-810e-0c567f909108"
+    documentation="Scenario: &#xD;&#xA;  applikasjoner i Altinn vil ha egne dedikerte API, til bruk for interessentene&#xD;&#xA;  T 30 vil kunne benyttes som utviklingsplattform for API som benytter en eller flere datakilder og dets API-(er), og tilby proxy API med innebygget logikk og transformasjon. Også denne type API må kunne registreres&#xD;&#xA;&#xD;&#xA;"/>

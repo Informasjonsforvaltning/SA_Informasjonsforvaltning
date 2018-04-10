@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som utvikler i Altinn ønsker jeg å kunne registrere tredjepart API uten at API-eier har kjennskap til dette slik &lt;hensikt>"
+    id="6571622e-5412-41d0-be47-1514bcc7ae1e"
+    documentation="o   scenario: Åpne API-er fra ikke-offentlige dataeiere, men som benyttes av andre API eller mine applikasjoner. F.eks Google API / maps etc fra dataeiere som ønsker utbredelse, men som ikke har behov for å forvalte registreringer i en fremmed API katalog.&#xD;&#xA;o   Slike type API registreringer må man anta bør klassifiseres som f.eks tredjepart, og &quot;noen&quot; må forvalte registreringen. Man kan kanskje se for seg at denne type registrering inneholder mer basis informasjon om API-et&#xD;&#xA;"/>
