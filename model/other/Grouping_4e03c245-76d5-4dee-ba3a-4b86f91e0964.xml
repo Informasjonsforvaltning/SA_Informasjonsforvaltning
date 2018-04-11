@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Kostnader"
     id="4e03c245-76d5-4dee-ba3a-4b86f91e0964"
-    documentation="Som konsument av API ønsker jeg informasjon om kostnader og trafikkbegrensninger for bruk av API-et slik at jeg kan ha forutsigbare rammer  for min bruk av dataene."/>
+    documentation="Som konsument av API ønsker jeg informasjon om kostnader og trafikkbegrensninger for bruk av API-et slik at jeg kan ha forutsigbare rammer  for min bruk av dataene.">
+  <properties
+      key="Forretningsverdi"
+      value="5"/>
+</archimate:Grouping>

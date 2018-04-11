@@ -366,18 +366,36 @@
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_9549b884-c21c-448d-9218-4d0b3dbd6255.xml#9549b884-c21c-448d-9218-4d0b3dbd6255"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="069302c9-d8dc-4699-a5b7-31eb67d69cef"
+          source="fc773a8f-1a60-4b24-821f-b6ecc6bd132b"
+          target="4e72f59f-3e57-4d17-904d-1f10d1c8bba7">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_56d21d1c-2f3b-471c-9825-a019fd66d9ca.xml#56d21d1c-2f3b-471c-9825-a019fd66d9ca"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="ec9b397a-ebaf-4143-9da7-e0c385c1aec3"
+          source="fc773a8f-1a60-4b24-821f-b6ecc6bd132b"
+          target="dd39e861-75cd-47af-ab3b-9498561e773e">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_a597ed6f-07f6-4f7f-8015-6cefce090e50.xml#a597ed6f-07f6-4f7f-8015-6cefce090e50"/>
+      </sourceConnections>
       <bounds
           x="2304"
           y="24"
           width="445"
-          height="265"/>
+          height="349"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="02b949a3-4fb7-4101-b549-e2bf18830193"
           targetConnections="501bfb11-0154-4fde-9194-2d1419c4fa08">
         <bounds
             x="12"
-            y="24"
+            y="118"
             width="421"
             height="55"/>
         <archimateElement
@@ -389,10 +407,10 @@
           id="d1b444bf-c5fd-4858-850c-6ec7786a5283"
           targetConnections="ea0dcf56-26f9-4e6c-8216-f5e0b45c1353">
         <bounds
-            x="12"
-            y="78"
+            x="11"
+            y="172"
             width="421"
-            height="69"/>
+            height="57"/>
         <archimateElement
             xsi:type="archimate:Requirement"
             href="Requirement_eece0a70-8ff5-40d7-b33c-d4be3cb8e8b8.xml#eece0a70-8ff5-40d7-b33c-d4be3cb8e8b8"/>
@@ -403,7 +421,7 @@
           targetConnections="31ecd410-ee06-4928-b3cc-35617d94f0f7">
         <bounds
             x="12"
-            y="146"
+            y="228"
             width="421"
             height="55"/>
         <archimateElement
@@ -416,12 +434,38 @@
           targetConnections="e06ac833-7de3-4740-813b-a9bb8cfb941a">
         <bounds
             x="12"
-            y="200"
+            y="282"
             width="421"
             height="55"/>
         <archimateElement
             xsi:type="archimate:Requirement"
             href="Requirement_20f4240e-9c67-4ada-a15c-e47a408a31f5.xml#20f4240e-9c67-4ada-a15c-e47a408a31f5"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="4e72f59f-3e57-4d17-904d-1f10d1c8bba7"
+          targetConnections="069302c9-d8dc-4699-a5b7-31eb67d69cef">
+        <bounds
+            x="11"
+            y="76"
+            width="422"
+            height="43"/>
+        <archimateElement
+            xsi:type="archimate:Requirement"
+            href="Requirement_6f68fd24-1bbd-4c13-900d-466fa18d05a6.xml#6f68fd24-1bbd-4c13-900d-466fa18d05a6"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="dd39e861-75cd-47af-ab3b-9498561e773e"
+          targetConnections="ec9b397a-ebaf-4143-9da7-e0c385c1aec3">
+        <bounds
+            x="12"
+            y="32"
+            width="421"
+            height="45"/>
+        <archimateElement
+            xsi:type="archimate:Requirement"
+            href="Requirement_81f6551c-5e93-487c-b327-c7f594b87860.xml#81f6551c-5e93-487c-b327-c7f594b87860"/>
       </children>
       <archimateElement
           xsi:type="archimate:Grouping"
@@ -1611,7 +1655,7 @@
       </sourceConnections>
       <bounds
           x="2304"
-          y="456"
+          y="672"
           width="445"
           height="89"/>
       <children
@@ -1769,7 +1813,7 @@
       </sourceConnections>
       <bounds
           x="2304"
-          y="300"
+          y="516"
           width="445"
           height="145"/>
       <children
@@ -1883,7 +1927,7 @@
       </sourceConnections>
       <bounds
           x="2304"
-          y="552"
+          y="769"
           width="445"
           height="96"/>
       <children
