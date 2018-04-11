@@ -10,6 +10,7 @@
 1.  Velg Collaboration-> Import remote model to workspace
 2.  Fyll ut som følger
   * URL: `https://github.com/DIG-Informasjonsforvaltning/SA_Informasjonsforvaltning.git`
+  Viss du etter kvart skal publisere endringar til github, er det også lurt å fylle ut:
   * User Name: `<ditt brukernavn på Github>`
   * Password: `<ditt passord på Github>`
   * Trykk OK
