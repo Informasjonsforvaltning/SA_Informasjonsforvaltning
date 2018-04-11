@@ -1,4 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="26. Som API-forvalter ønsker jeg at opplysninger som er relevante for datakatalogen og som finnes i API-et (feks “sist oppdatert”), høstes til datakatalogen slik at datasettbeskrivelsen er så god som mulig. "
-    id="37246ef9-9209-4e0c-90c8-b90406f9e88f"/>
+    id="37246ef9-9209-4e0c-90c8-b90406f9e88f">
+  <properties/>
+</archimate:Requirement>

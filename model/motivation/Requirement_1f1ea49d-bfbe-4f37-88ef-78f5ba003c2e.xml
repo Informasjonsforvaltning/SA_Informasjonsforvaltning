@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-eier ønsker jeg å angi at API’et skal være tilgjengelig i en runtime-tjenestekatalog (SMP/capability lookup) og Altinn tjenestekatalog/Authorization for samtykke og tilgangsstyring.   "
+    id="1f1ea49d-bfbe-4f37-88ef-78f5ba003c2e"/>
