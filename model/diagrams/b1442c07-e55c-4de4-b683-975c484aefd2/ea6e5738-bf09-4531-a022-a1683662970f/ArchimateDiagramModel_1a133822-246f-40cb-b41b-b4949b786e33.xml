@@ -8,7 +8,7 @@
       id="ba619514-8a7e-4765-9129-861491e016e7"
       targetConnections="50062c95-384a-4160-9105-a9419416c06d">
     <bounds
-        x="216"
+        x="156"
         y="72"
         width="120"
         height="55"/>
@@ -48,6 +48,24 @@
         targetConnections="040d29a8-156d-49e8-9ea3-57122de22816 f71f7dfb-be1a-4d5b-8612-078b4df8e65a">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
+          id="b839beb8-d5f6-4113-8128-380bca672862"
+          source="e699a6a1-6295-4276-9e9c-180ea49c8283"
+          target="d07b091a-280e-4c8e-af01-f2e90ca44efe">
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_0c3f5df5-bdf6-496a-91e2-44a583eadb00.xml#0c3f5df5-bdf6-496a-91e2-44a583eadb00"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="7e84ede2-30f4-4c4a-ae24-be4d1cbf9a05"
+          source="e699a6a1-6295-4276-9e9c-180ea49c8283"
+          target="61a41a6a-4c3e-4d18-a771-5d779326a878">
+        <archimateRelationship
+            xsi:type="archimate:FlowRelationship"
+            href="FlowRelationship_b115bfb3-7f17-4334-a524-45ce47526362.xml#b115bfb3-7f17-4334-a524-45ce47526362"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
           id="50062c95-384a-4160-9105-a9419416c06d"
           source="e699a6a1-6295-4276-9e9c-180ea49c8283"
           target="ba619514-8a7e-4765-9129-861491e016e7">
@@ -69,8 +87,8 @@
         id="570a5cc3-be03-4eae-94dd-6b35a35e2382"
         targetConnections="0759a18d-be16-486b-abf8-0ee1f2d6af92">
       <bounds
-          x="60"
-          y="173"
+          x="216"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -145,5 +163,46 @@
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_aa68bf5b-4075-47f3-8d48-88e14bcc184f.xml#aa68bf5b-4075-47f3-8d48-88e14bcc184f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="d07b091a-280e-4c8e-af01-f2e90ca44efe"
+      targetConnections="b839beb8-d5f6-4113-8128-380bca672862">
+    <bounds
+        x="360"
+        y="72"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.xml#5941cd3b-b0b6-4f19-8afc-eb46b26b6db0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="61a41a6a-4c3e-4d18-a771-5d779326a878"
+      targetConnections="7e84ede2-30f4-4c4a-ae24-be4d1cbf9a05 479b627a-85fd-4cac-afcd-f546e3b9241b">
+    <bounds
+        x="265"
+        y="565"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_06bc21b6-2b3d-4d9b-ad12-e6be5fc2b90b.xml#06bc21b6-2b3d-4d9b-ad12-e6be5fc2b90b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="128c40d2-d730-466e-ac54-781f2b104f91"
+      textAlignment="1"
+      content="TODO: For å forstå dette, må vi ha brukerhistorier knytta til SMP.">
+    <sourceConnections
+        id="479b627a-85fd-4cac-afcd-f546e3b9241b"
+        source="128c40d2-d730-466e-ac54-781f2b104f91"
+        target="61a41a6a-4c3e-4d18-a771-5d779326a878"/>
+    <bounds
+        x="432"
+        y="553"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
