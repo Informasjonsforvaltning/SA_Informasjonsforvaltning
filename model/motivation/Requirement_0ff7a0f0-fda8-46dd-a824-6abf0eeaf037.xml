@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-eier ønsker jeg å publisere API-er som ikke kan knyttes til et datasett slik at også mine mine API-er som gjør beregninger e.l. kan publiseres"
+    id="0ff7a0f0-fda8-46dd-a824-6abf0eeaf037">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

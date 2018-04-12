@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg standardiserte autentiserings- og autorisaksjonsmekansimer som kan gjenbrukes på tjenester beskrevet for API-ene slik at tilgangsstyring mot flere tjenester kan forenkles"
+    id="594e6934-3326-45e9-a4f7-751996b7f23d">
+  <properties
+      key="forretningsverdi"
+      value="3"/>
+</archimate:Requirement>

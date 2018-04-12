@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg single sign on (SSO) mellom flere tjenester jeg benytter slik at jeg unngår separat autentisering mot hver enkelt tjeneste"
+    id="b706b2b5-1898-4b7e-863f-41a39008970b"/>

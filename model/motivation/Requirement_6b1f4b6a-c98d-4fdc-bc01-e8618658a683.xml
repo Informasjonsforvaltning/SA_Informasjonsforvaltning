@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som dataeier ønsker jeg at relevante opplysninger fra API-beskrivelsen er tilgjengelig i datasettbeskrivelsen slik at jeg unngår dobbeltarbeid"
+    id="6b1f4b6a-c98d-4fdc-bc01-e8618658a683">
+  <properties
+      key="forretningsverdi"
+      value="3"/>
+</archimate:Requirement>

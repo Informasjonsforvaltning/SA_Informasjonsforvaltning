@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter/API-management ansvarlig ønsker jeg en nasjonal/delt infrastruktur for administrasjon og utstedelse av tilgangstokens for API-konsumenter slik at jeg slipper å utstede og forvalte disse selv (dette gjelder både hjemmelsbasert og samtykkebasert tilgang)."
+    id="7054ae23-3665-4701-a015-a70759a8c6fe"/>

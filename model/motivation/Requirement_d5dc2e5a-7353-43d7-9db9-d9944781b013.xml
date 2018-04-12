@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg at nasjonal/delt infrastruktur tilbyr felles mønstre for autentisering og autorisering mot API slik at jeg slipper å bestille og forvalte tilgangsstyring hos hver enkelt tjenestetilbyder."
+    id="d5dc2e5a-7353-43d7-9db9-d9944781b013"/>

@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg at definerte APIer i API-katalogen kan overføres til felleskomponenter for tilgangsstyring og autentisering slik at jeg slipper å registrere disse dobbelt (og dermed risikere feil i registreringer)"
+    id="a1782702-b97d-4797-8651-bcc11120ee36"/>

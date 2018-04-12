@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg at datasett som er relatert til hverandre vises sammen slik at jeg kan få et helhetlig bilde av et fenomen"
+    id="d8d593a4-620f-418d-a1e6-868144bbde42">
+  <properties
+      key="forretningsverdi"
+      value="2"/>
+</archimate:Requirement>

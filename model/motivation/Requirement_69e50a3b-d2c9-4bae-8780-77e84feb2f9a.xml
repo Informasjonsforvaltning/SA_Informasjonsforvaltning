@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som forretningsutvikler ønsker jeg å se filtrere på datasett som tilbyr API slik at jeg kan benytte det i mine tjenester"
+    id="69e50a3b-d2c9-4bae-8780-77e84feb2f9a">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

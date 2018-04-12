@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg at API-beskrivelser er oppdaterte, og at API-er som ikke lenger er tilgjengelig/deprecated fjernes fra katalogen slik at jeg ikke studerer beskrivelser som ikke kan brukes"
+    id="2ee372a8-74ab-4e28-a60e-b1bf87cc1ef0">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

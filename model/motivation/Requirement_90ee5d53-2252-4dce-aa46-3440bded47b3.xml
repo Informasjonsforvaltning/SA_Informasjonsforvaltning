@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg å se request og respons på et API slik at jeg kan planlegge design"
+    id="90ee5d53-2252-4dce-aa46-3440bded47b3">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

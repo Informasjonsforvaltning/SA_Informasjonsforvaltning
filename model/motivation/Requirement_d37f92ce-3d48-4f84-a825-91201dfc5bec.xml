@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg at API-er av autoritativ art priorites slik at de er lette å finne"
+    id="d37f92ce-3d48-4f84-a825-91201dfc5bec">
+  <properties
+      key="forretningsverdi"
+      value="3"/>
+</archimate:Requirement>

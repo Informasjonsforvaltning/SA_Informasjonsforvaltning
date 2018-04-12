@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som bruker ønsker jeg å kunne authentisere meg på en enkel måte mot katalogen slik at jeg kan gi tilbakemeldninger og melde om bruk av et API"
+    id="f440825e-fff8-462c-a4e5-a320af6dc7fb">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

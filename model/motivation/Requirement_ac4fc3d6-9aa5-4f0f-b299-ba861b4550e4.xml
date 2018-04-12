@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg at mine API-beskrivelser følger et standard med veiledning og verktøystøtte slik at det er enkelt for brukerne og jeg kan redusere mine forvaltningskostnader og henvendelser"
+    id="ac4fc3d6-9aa5-4f0f-b299-ba861b4550e4">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

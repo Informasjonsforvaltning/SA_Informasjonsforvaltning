@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg å kunne gi komme i dialog med API-eier og andre API-konsumenter og gi tilbakemeldinger, tips, stille spørsmål, melde om feil, gi innspill til endringer slik at dette kan hver til hjelp for meg, andre og data-eier."
+    id="4c1e410e-65db-4047-80ef-f4211f5e40f0">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

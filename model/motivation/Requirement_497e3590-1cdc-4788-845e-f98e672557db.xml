@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg å søke og filtrere langs ulike kategorier (formater, tilgangsnivå) på API slik at jeg minimerer tiden jeg bruker på å finne rett API"
+    id="497e3590-1cdc-4788-845e-f98e672557db">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

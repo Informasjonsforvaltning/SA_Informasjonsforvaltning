@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg å kunne sammenlikne API slik at jeg kan vurdere om et API passer bedre enn et annet"
+    id="954414e6-d7f2-40c7-9450-89b7ba1dc25e">
+  <properties
+      key="forretningsverdi"
+      value="2"/>
+</archimate:Requirement>

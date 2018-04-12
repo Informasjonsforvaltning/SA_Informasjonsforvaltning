@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg en godt dokumentert felles løsning for registering av API-beskrivelser slik at jeg slipper å installere egne verktøy."
+    id="1f9aa30c-2f10-4512-a8df-a9e110bd188d">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

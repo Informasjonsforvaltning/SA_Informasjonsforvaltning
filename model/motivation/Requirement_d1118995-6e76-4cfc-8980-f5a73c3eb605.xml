@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg at distribusjoner av samme (eller geografisk komplementære) datasett fra ulike tilbydere eller er samlet under et datasett"
+    id="d1118995-6e76-4cfc-8980-f5a73c3eb605">
+  <properties
+      key="forretningsverdi"
+      value="2"/>
+</archimate:Requirement>

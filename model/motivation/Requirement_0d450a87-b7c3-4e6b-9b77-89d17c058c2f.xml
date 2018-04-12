@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg å kjenne til brukere av API slik at jeg kan formidle endringer i API-et"
+    id="0d450a87-b7c3-4e6b-9b77-89d17c058c2f">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

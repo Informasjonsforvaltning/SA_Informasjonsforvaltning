@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="  Som API-forvalter ønsker jeg å kunne få overført mine API-definisjoner til en runtime tjenestekatalog (SMP, CapabiliityLookup eller den tekniske endepunktedelen av KoFuVi?) for å kunne legge til metadata for runtime-kall slik at jeg ikke må registrere mine API-definisjoner dobbelt."
+    id="04ea571b-eebf-48cb-8a2f-305fcf16c689"/>

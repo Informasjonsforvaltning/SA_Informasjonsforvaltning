@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg at API-beskrivelsene skal være maskinlesbare og publisert/høstet av felles API-katalog gjennom et API eller tilsvarende slik at jeg kan vedlikeholde dokumentasjonen lokalt og ett sted."
+    id="5d5e91a0-13f0-42fd-b561-82034b18e27e">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

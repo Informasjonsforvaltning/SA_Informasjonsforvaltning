@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg kontaktinformasjon til brukerstøtte for API slik at jeg kan få hjelp om jeg står fast"
+    id="2a18713c-73d7-404b-aa73-27eefd887857">
+  <properties
+      key="forretningsverdi"
+      value="4"/>
+</archimate:Requirement>

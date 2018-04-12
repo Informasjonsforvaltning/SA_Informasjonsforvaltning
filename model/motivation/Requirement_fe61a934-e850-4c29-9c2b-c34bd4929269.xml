@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som dataeier ønsker jeg å knytte API til datasettet slik at jeg kan vise hvilke distribusjoner som finnes"
+    id="fe61a934-e850-4c29-9c2b-c34bd4929269">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg en å samle beskrivelser av API-ene våre og andres slik at det er enkelt å få oversikt over API-er og bruk"
+    id="72baf540-7f15-43d9-ac6f-1c16a9269de8">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

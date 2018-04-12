@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg at API-katalog kan plukke opp min swagger dokumentasjon slik at jeg kan benytte dette verktøyet"
+    id="d1f5bd41-62b7-49c3-ad31-44f35278dc8c">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

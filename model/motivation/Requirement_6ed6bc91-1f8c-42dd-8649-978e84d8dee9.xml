@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg kunnskapsbase (f.eks. FAQ funksjonalitet) slik at jeg som bruker kan få svar på kjente utfordringer og ikke behøver å bruke tid på henvendelser"
+    id="6ed6bc91-1f8c-42dd-8649-978e84d8dee9">
+  <properties
+      key="forretningsverdi"
+      value="3"/>
+</archimate:Requirement>

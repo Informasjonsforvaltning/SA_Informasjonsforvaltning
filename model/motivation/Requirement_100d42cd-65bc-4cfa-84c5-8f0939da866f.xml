@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-forvalter ønsker jeg å tilgjengeliggjøre API-et i en sanntids-tjenestekatalog (SMP) slik at den kan brukes til capability lookup i sanntids meldingsutveksling"
+    id="100d42cd-65bc-4cfa-84c5-8f0939da866f">
+  <properties
+      key="forretningsverdi"
+      value="3"/>
+</archimate:Requirement>
