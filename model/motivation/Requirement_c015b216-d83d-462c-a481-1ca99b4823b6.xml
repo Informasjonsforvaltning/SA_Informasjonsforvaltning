@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg å se en SLA knyttet til API-et slik at jeg kan vurdere om det tilfredsstiller mine krav til bruk"
+    id="c015b216-d83d-462c-a481-1ca99b4823b6">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>

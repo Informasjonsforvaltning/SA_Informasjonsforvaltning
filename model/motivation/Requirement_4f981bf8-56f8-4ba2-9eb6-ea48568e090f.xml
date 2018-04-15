@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som konsument av API ønsker jeg informasjon om kostnader og trafikkbegrensninger for bruk av API-et slik at jeg kan ha forutsigbare rammer  for min bruk av dataene."
+    id="4f981bf8-56f8-4ba2-9eb6-ea48568e090f">
+  <properties
+      key="forretingsverdi"
+      value="5"/>
+</archimate:Requirement>

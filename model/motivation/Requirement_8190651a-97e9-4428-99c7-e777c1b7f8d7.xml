@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Som API-konsument ønsker jeg å finne detaljert beskrivelse av API-ene slik at jeg kan vurdere om jeg kan benytte API-et i mine tjenester "
+    name="Som API-konsument ønsker jeg å finne detaljert beskrivelse av API-ene slik at jeg kan vurdere om jeg kan benytte API-et i mine tjenester (EPOS)"
     id="8190651a-97e9-4428-99c7-e777c1b7f8d7">
   <properties
       key="forretningsverdi"

@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg informasjon om kapasitet, ytelse og pålitelighet slik at jeg kan være sikker på at API-et kan benyttes i mine forretningskritiske tjenester"
+    id="4f1fb45e-300f-4c09-86a7-f14dba662357">
+  <properties
+      key="forretningsverdi"
+      value="3"/>
+</archimate:Requirement>

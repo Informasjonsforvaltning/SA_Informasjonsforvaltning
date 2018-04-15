@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som API-konsument ønsker jeg at rettslige rammer og lisens er tydelig beskrevet slik at jeg kan vurdere om det er forenelig med min bruk av dataene"
+    id="9c8a021a-be9a-4f39-bab9-45d0ea028eb7">
+  <properties
+      key="forretningsverdi"
+      value="5"/>
+</archimate:Requirement>
