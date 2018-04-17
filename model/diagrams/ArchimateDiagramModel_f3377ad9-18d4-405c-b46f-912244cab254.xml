@@ -26,15 +26,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="147deb94-d764-4054-ae48-3ed130b6a49b"
-        source="a88b65c5-b051-40d9-80f6-62c99895c0de"
-        target="fb17ba8a-081b-4629-a4c4-649b6472e4dc">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_b9d9aacc-4171-480f-a6b1-03cbbc8f2603.xml#b9d9aacc-4171-480f-a6b1-03cbbc8f2603"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="e86a5bcf-8199-46d0-8a68-a5bd4f470178"
         source="a88b65c5-b051-40d9-80f6-62c99895c0de"
         target="2eca62da-9c76-4c7f-ac9b-2c529629c8ad">
@@ -68,7 +59,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="fccde6ca-62e3-44c2-89fa-c95f72faffa9"
-        targetConnections="6918468e-c995-4ba3-9a37-59c62547f2be c0334de0-bd57-469e-81f2-9f8ce6f2179a 0ef228f2-3703-47ee-a74b-081ef30e7501">
+        targetConnections="6918468e-c995-4ba3-9a37-59c62547f2be 0ef228f2-3703-47ee-a74b-081ef30e7501">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="f5301192-1b58-49f2-abb3-85e4f03b2df6"
@@ -120,44 +111,13 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="fb17ba8a-081b-4629-a4c4-649b6472e4dc"
-        targetConnections="147deb94-d764-4054-ae48-3ed130b6a49b 6877f87f-d72e-4b9a-8f2e-9c2c6f556f8a">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="c0334de0-bd57-469e-81f2-9f8ce6f2179a"
-          source="fb17ba8a-081b-4629-a4c4-649b6472e4dc"
-          target="fccde6ca-62e3-44c2-89fa-c95f72faffa9">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_2f966706-303b-47d4-bfe4-bf342e70ad58.xml#2f966706-303b-47d4-bfe4-bf342e70ad58"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="fbff9a15-6797-4234-8c17-0de1dbfef571"
-          source="fb17ba8a-081b-4629-a4c4-649b6472e4dc"
-          target="c9d9bfb7-dc71-4c7e-b760-9d4e6cf47092">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_49f1fbcc-df6f-4c35-8b22-d835c65fcd30.xml#49f1fbcc-df6f-4c35-8b22-d835c65fcd30"/>
-      </sourceConnections>
-      <bounds
-          x="576"
-          y="216"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_fd7f5fd3-e773-4411-bcf1-17960b354d99.xml#fd7f5fd3-e773-4411-bcf1-17960b354d99"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="2eca62da-9c76-4c7f-ac9b-2c529629c8ad"
         targetConnections="e86a5bcf-8199-46d0-8a68-a5bd4f470178">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="6877f87f-d72e-4b9a-8f2e-9c2c6f556f8a"
           source="2eca62da-9c76-4c7f-ac9b-2c529629c8ad"
-          target="fb17ba8a-081b-4629-a4c4-649b6472e4dc">
+          target="c9d9bfb7-dc71-4c7e-b760-9d4e6cf47092">
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_555106bd-0918-4c0c-acc3-d476ef3639c2.xml#555106bd-0918-4c0c-acc3-d476ef3639c2"/>
@@ -394,7 +354,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c9d9bfb7-dc71-4c7e-b760-9d4e6cf47092"
-        targetConnections="dd25ca58-8f6c-4ac7-b47b-5f7714d55e7d fbff9a15-6797-4234-8c17-0de1dbfef571 a43ce466-09c0-4e40-84c5-a4e7be8d4505">
+        targetConnections="dd25ca58-8f6c-4ac7-b47b-5f7714d55e7d a43ce466-09c0-4e40-84c5-a4e7be8d4505 6877f87f-d72e-4b9a-8f2e-9c2c6f556f8a">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="976db647-897f-4a3e-a16c-7c7ead38768d"
