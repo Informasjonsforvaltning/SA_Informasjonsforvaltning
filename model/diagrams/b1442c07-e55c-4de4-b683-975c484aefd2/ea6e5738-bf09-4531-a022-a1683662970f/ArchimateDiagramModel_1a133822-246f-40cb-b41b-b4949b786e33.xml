@@ -147,7 +147,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="570a5cc3-be03-4eae-94dd-6b35a35e2382"
-        targetConnections="0759a18d-be16-486b-abf8-0ee1f2d6af92 e3172b9c-6efb-448f-ac6e-c088facf127c">
+        targetConnections="0759a18d-be16-486b-abf8-0ee1f2d6af92 e3172b9c-6efb-448f-ac6e-c088facf127c 4ed8dd5c-0504-4ce7-b034-8e633e8c3fc5 6dcbd872-0b3b-4e63-8da6-32632e038e34">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="5c92f205-2bf4-4111-a220-36ad7c9e2dde"
@@ -261,7 +261,7 @@
         xsi:type="archimate:DiagramModelNote"
         id="6486a0cc-d3f7-4cbb-b4ba-4989eea80023"
         textAlignment="1"
-        content="Er dette rett retning på serves-relasjonen?">
+        content="Er dette rett retning på serves-relasjonen? Er en referanse fra distribusjon (dcat) til et gitt API.&#xD;&#xA;Godt mulig at denne går begge vegar.">
       <sourceConnections
           id="5d42d74b-f5de-412e-8933-352c189ff5c9"
           source="6486a0cc-d3f7-4cbb-b4ba-4989eea80023"
@@ -270,7 +270,7 @@
           x="612"
           y="473"
           width="185"
-          height="80"/>
+          height="104"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -564,5 +564,35 @@
     <archimateElement
         xsi:type="archimate:Location"
         href="Location_292291f6-65ce-42fc-9d4a-21ddfe6b07da.xml#292291f6-65ce-42fc-9d4a-21ddfe6b07da"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="fee54ae9-dcd5-4a16-a474-f9b2d8fa1b3c"
+      textAlignment="1"
+      content="Kodeverkskatalog bør vurderes som en komponent som må inn på viewet.">
+    <sourceConnections
+        id="4ed8dd5c-0504-4ce7-b034-8e633e8c3fc5"
+        source="fee54ae9-dcd5-4a16-a474-f9b2d8fa1b3c"
+        target="570a5cc3-be03-4eae-94dd-6b35a35e2382"/>
+    <bounds
+        x="503"
+        y="864"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="8932d4b9-f279-4ba2-a2d5-52a89e4c21cf"
+      textAlignment="1"
+      content="Hjemmelskatalog?">
+    <sourceConnections
+        id="6dcbd872-0b3b-4e63-8da6-32632e038e34"
+        source="8932d4b9-f279-4ba2-a2d5-52a89e4c21cf"
+        target="570a5cc3-be03-4eae-94dd-6b35a35e2382"/>
+    <bounds
+        x="744"
+        y="864"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
