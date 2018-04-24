@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Informasjonsmodell"
+    name="API-katalog Informasjonsmodell"
     id="81d9cb9a-7e66-4fc2-8992-8179daea9505">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
