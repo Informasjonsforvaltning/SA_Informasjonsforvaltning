@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Eierskap og ansvar"
+    name="Som API-forvalter ønsker jeg eierskapet og ansvaret til API-eier kommer tydlig frem slik at man unngår uklarheter"
     id="c53cd373-4fb2-4360-9bd5-89f414e79279">
   <properties
       key="forretningsverdi"
