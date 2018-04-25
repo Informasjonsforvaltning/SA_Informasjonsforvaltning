@@ -1,4 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Generering fra kode"
+    name="Som API-konsument ønsker jeg at dokumentasjonen er genererert fra kode slik at jeg kan stole på at den er oppdatert"
     id="b63cd0e0-2df7-4877-84c2-598ce786c567"/>
