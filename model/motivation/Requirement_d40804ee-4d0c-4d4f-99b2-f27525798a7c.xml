@@ -1,4 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Endringer i modell"
+    name="Som API-konsument ønsker jeg informasjon hvordan endringer i modell varsles slik at jeg kan fange opp endringer"
     id="d40804ee-4d0c-4d4f-99b2-f27525798a7c"/>
