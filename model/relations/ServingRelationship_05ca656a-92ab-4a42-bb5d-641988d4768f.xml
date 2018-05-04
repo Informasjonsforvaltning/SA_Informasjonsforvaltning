@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="leser"
+    id="05ca656a-92ab-4a42-bb5d-641988d4768f">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_a73c388d-5570-46b7-abc6-442b8a4baf16.xml#a73c388d-5570-46b7-abc6-442b8a4baf16"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_d31f952d-9df8-4df8-bb93-8a7681c35114.xml#d31f952d-9df8-4df8-bb93-8a7681c35114"/>
+</archimate:ServingRelationship>

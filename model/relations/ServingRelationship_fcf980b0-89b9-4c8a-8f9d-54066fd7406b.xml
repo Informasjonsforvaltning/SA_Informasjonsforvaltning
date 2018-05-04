@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="autorisasjon"
+    id="fcf980b0-89b9-4c8a-8f9d-54066fd7406b">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_70f9be0f-f3a2-415d-b7c4-ab8301df47d3.xml#70f9be0f-f3a2-415d-b7c4-ab8301df47d3"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_a73c388d-5570-46b7-abc6-442b8a4baf16.xml#a73c388d-5570-46b7-abc6-442b8a4baf16"/>
+</archimate:ServingRelationship>
