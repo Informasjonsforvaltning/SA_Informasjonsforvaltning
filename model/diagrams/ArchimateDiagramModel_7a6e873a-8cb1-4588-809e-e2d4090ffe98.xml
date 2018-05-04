@@ -165,8 +165,8 @@
       textAlignment="1"
       content="UFERDIG">
     <bounds
-        x="816"
-        y="422"
+        x="60"
+        y="60"
         width="185"
         height="80"/>
   </children>
