@@ -1,0 +1,18 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Informasjonsforvaltning Technology Usage"
+    id="7fc738e5-66c4-4daa-b633-5385d245f283"
+    documentation="Dette viewpointet dokumenterer målbildet for korleis våre komponenter er deployet til et kjørteidsmiljø.">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ccb6b769-ad38-448b-b5e3-7399f646947d"
+      textAlignment="1"
+      content="TODO: Utforsk godt mønster for å dokumentere kontainere, kubernetes og sky i teknologi-laget. Sjekk repository https://github.com/DIG-Informasjonsforvaltning/ArchimatePatterns">
+    <bounds
+        x="24"
+        y="24"
+        width="374"
+        height="155"/>
+  </children>
+</archimate:ArchimateDiagramModel>

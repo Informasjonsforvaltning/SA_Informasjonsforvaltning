@@ -1,4 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Personvern og dataminimering"
+    name="Som API-konsument ønsker jeg å forstå om API-et tilbyr datamimimering slik at jeg kan understøtte godt personvern"
     id="795296a2-697b-4666-ab11-b236130b72db"/>

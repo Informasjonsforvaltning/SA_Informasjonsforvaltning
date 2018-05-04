@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Standarder"
+    name="Informasjonsforvaltning Standarder"
     id="5ef2a57b-3c04-4735-a79c-80cce86f5113">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -21,9 +21,9 @@
       id="4b5b0f3e-0b47-4706-915c-8403a5b09643"
       targetConnections="37c48412-75d9-48d5-be05-9b88a03d68c1 2c855b15-d06d-436f-9b30-1d8cfa34bf93">
     <bounds
-        x="440"
+        x="431"
         y="324"
-        width="120"
+        width="137"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -97,9 +97,9 @@
           href="AccessRelationship_c4926ab1-beba-49b7-a093-8ba01ff37cf2.xml#c4926ab1-beba-49b7-a093-8ba01ff37cf2"/>
     </sourceConnections>
     <bounds
-        x="440"
+        x="431"
         y="180"
-        width="120"
+        width="137"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessService"
@@ -118,9 +118,9 @@
           href="AccessRelationship_555106bd-0918-4c0c-acc3-d476ef3639c2.xml#555106bd-0918-4c0c-acc3-d476ef3639c2"/>
     </sourceConnections>
     <bounds
-        x="656"
+        x="636"
         y="180"
-        width="120"
+        width="157"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessService"
@@ -174,9 +174,9 @@
       id="4845efcc-f270-4f9f-928d-7e5a34a1bfbe"
       targetConnections="9c587fe8-8ac6-4ce4-a205-93d4cfb71e91 561b6536-e787-4dbd-8a03-c669c5a7e0ca">
     <bounds
-        x="864"
+        x="857"
         y="324"
-        width="120"
+        width="133"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -258,9 +258,9 @@
           href="AccessRelationship_45f0ddba-0c2c-4226-bc13-9efc6292c57e.xml#45f0ddba-0c2c-4226-bc13-9efc6292c57e"/>
     </sourceConnections>
     <bounds
-        x="864"
+        x="857"
         y="180"
-        width="120"
+        width="133"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessService"

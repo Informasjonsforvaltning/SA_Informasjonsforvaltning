@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Roller"
+    name="API-katalog Roller"
     id="c5f629b8-77e5-452d-81fc-4c17138c8f8a">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
