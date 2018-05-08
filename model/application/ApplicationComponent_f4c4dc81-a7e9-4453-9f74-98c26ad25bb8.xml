@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Datalagring"
-    id="f4c4dc81-a7e9-4453-9f74-98c26ad25bb8"/>
+    id="f4c4dc81-a7e9-4453-9f74-98c26ad25bb8"
+    documentation="En komponent som tilbyr lagring av API-beskrivelser og et standardisert QL for å hente de fram."/>

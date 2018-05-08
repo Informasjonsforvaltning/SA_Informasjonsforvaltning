@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Leseapplikasjon"
     id="c46cd7c1-1201-4157-9c51-1a2a65950634"
-    documentation="Webapplikasjon til bruk for API-konsument&#xA;- Søk&#xA;- Gir detaljert informasjon om API&#xA;- Tilbyr eksport av API-informasjon i form av OpenAPI-dokument"/>
+    documentation="En webapplikasjon som gir en API-konsument oversikt over og søkemuligheter mot API-beskrivelser"/>

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="01_System Context diagram"
+    name="01_System Context diagram med data"
     id="1a133822-246f-40cb-b41b-b4949b786e33">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
