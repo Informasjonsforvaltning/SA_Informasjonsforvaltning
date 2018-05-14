@@ -1,24 +1,10 @@
 # Bidra til SA_Informasjonsforvaltning arkitektur
 
 ## Instruksjoner
+For å publisere dine endringer til github, må du være medlem av arkitektur-teamet. Deretter kan du følge denne oppskriften:
 
-### Installasjon av programvare
-*   Last ned og installer [Archi](http://archimatetool.com/download) for din plattform
-*   Last ned og installer [Archi's Model Repository Collaboration Plugin](https://www.archimatetool.com/plugins)
+Først må du installere verktøy og plugin som beskrevet i [README.md](README.md)
 
-### Åpne modellen i Archi
-1.  Velg Collaboration-> Import remote model to workspace
-2.  Fyll ut som følger
-  * URL: `https://github.com/DIG-Informasjonsforvaltning/SA_Informasjonsforvaltning.git`
-  Viss du etter kvart skal publisere endringar til github, er det også lurt å fylle ut:
-  * User Name: `<ditt brukernavn på Github>`
-  * Password: `<ditt passord på Github>`
-  * Trykk OK
-Du skal nå finne modellen i Models-vinduet ditt.
-
-### Hente ny versjon av modellen fra Github
-Om du ikke har gjort lokale endringer i modellen, er det enkelt å hente inn nye endringer andre har gjort i modellen.
-1. Velg Collaboration->Refresh Model
 ### Jobbe med modellen i Archi
 Inn til videre er det ikke støtte for branching i Archi, dermed må du gjøre følgende når du skal oppdatere modellen
 
