@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informasjonsforvaltning Capabilities"
-    id="7a6e873a-8cb1-4588-809e-e2d4090ffe98">
+    id="7a6e873a-8cb1-4588-809e-e2d4090ffe98"
+    documentation="Viewpointet bryter kapabiliteten Informasjonsforvaltning ned i underliggende kapabiliteter. Videre linkes disse til ressurser som realiserer de ulike kapabilitetene.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="d97b8c53-46b3-491e-9946-19c465100130"
@@ -151,9 +152,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="3e08bc18-b23b-44e2-a0e8-a16428c6810d">
     <bounds
-        x="600"
+        x="576"
         y="240"
-        width="120"
+        width="145"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Resource"
