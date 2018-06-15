@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Harvester"
+    id="4f599def-d399-403c-a971-3df2ccd296a2"
+    documentation="En backend applikasjon som implementer ETL type funksjonalitet for å laste inn mange API-beskrivelser."/>

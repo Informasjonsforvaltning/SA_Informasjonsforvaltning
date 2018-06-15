@@ -1,0 +1,18 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="01_System Context Diagram"
+    id="e1a083ee-f1b9-45df-ac4e-876743cc985f">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="d018281a-d17b-4e0a-9c91-4e60d397d923">
+    <bounds
+        x="582"
+        y="305"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_6bb5c3eb-5117-4145-b211-67fb6fae8438.xml#6bb5c3eb-5117-4145-b211-67fb6fae8438"/>
+  </children>
+</archimate:ArchimateDiagramModel>
