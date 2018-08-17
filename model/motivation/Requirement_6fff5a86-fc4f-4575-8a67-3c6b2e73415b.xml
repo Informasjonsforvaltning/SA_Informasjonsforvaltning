@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Som begrepseier ønsker jeg å dele begrepsinnholdet mitt inn i gitte felter, slik at jeg kan beskrive begrep i tråd med anbefalte standarder"
+    id="6fff5a86-fc4f-4575-8a67-3c6b2e73415b"
+    documentation="Innunder denne kan man sikkert utbrodere/splitte i flere historier, f. eks krav til støtte for å registrere term, definisjon, ansvarlig virksomhet, ID(-generering), i tillegg til støtte for valgfrie felter som supplerer det obligatoriske i standarden (kilde, merknad, alternative og frarådde termer). "/>
