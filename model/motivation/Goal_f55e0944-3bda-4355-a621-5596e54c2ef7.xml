@@ -1,0 +1,4 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="For å ta i bruk dataene må tilgangen til opplysningene være beskrevet gjennom API-beskrivelser. API-ene må beskrives og forvaltes av dataeier (eller distributør) (API Management), og inkludere detaljer som protokoller, utvekslingsformater, sikkerhetskrav, innholdsstrukturer, avhengigheter til kodelister, terms of service m.m. API-beskrivelsene vil finnes som en del av datakatalogen. (2018)."
+    id="f55e0944-3bda-4355-a621-5596e54c2ef7"/>

@@ -1,0 +1,4 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="GDPR artikkel 30 stiller krav til protokoll. Tolkes litt ulikt om det er en protokoll pr behandling eller en samlet protokoll med oversikt over alle behandlingene. Uansett er hensikten å kunne gi en samlet oversikt over behandlingen av personopplysninger i en virksomhet. Enighet om at dette løses ved at det legges til en modul for å registrere en behandlingsaktivitet. Summen av de registrerte behandlingsaktivitetene utgjør protokollen. Noe informasjon vil være felles på tvers av behandlingsaktivitetene, slik som hvem som er behandlingsansvarlig (direktøren), hvem som er personvernombud etc."
+    id="89e9c47d-a32a-4398-b3d0-b08642e86419"/>
