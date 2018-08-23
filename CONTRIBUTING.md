@@ -14,7 +14,7 @@ Når du har gjort vesentlige endringer i modellen, må du oppdatere HTML-rapport
 2. Velg docs-mappa i prosjektet.
 3. Trykk OK
 
-Docs-mappa finner du lettest ved å finne Main->File i Properties-fanen for modellen. Erstatt ".git\temp.archimate" med "docs".
+Docs-mappa finner du lettest ved å finne Main->File i Properties-fanen for modellen. Erstatt ".git\temp.archimate" med "docs". Du vil få advarsel om at du overskriver eksisterende innhold. Det er ok, så trykk "Yes" i dialogen.
 #### Commit
 1.  Etter at du har gjort endringer, lagre disse på vanlig måte i Archi, feks CTLR+s
 2.  Velg Collaboration->Commit Changes.
