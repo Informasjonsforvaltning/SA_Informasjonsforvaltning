@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="autentisering"
+    id="4fce53f1-5f71-4c48-98d1-e58407761163">
+  <source
+      xsi:type="archimate:ApplicationInterface"
+      href="ApplicationInterface_3e7acf4e-4205-4d15-8035-6ba1a9298359.xml#3e7acf4e-4205-4d15-8035-6ba1a9298359"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_a58f3bb3-0424-4a3c-a04b-afbcaa1992d5.xml#a58f3bb3-0424-4a3c-a04b-afbcaa1992d5"/>
+</archimate:ServingRelationship>
