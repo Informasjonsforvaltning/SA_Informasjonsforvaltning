@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="204. Som tjenesteutvikler ønsker jeg å generere en tjeneste direkte fra en modell slik at jeg slipper manuelt å lage brukergrensesnittet til tjenesten for så å koble feltene til modellelementene (ev. XSD-elementene)."
+    id="c28e4f03-a8ab-4665-849d-4ddf925659ca"/>
