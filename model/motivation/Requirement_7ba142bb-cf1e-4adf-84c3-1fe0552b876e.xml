@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7. Tema – interne tema fremfor de generelle EU-temaene"
+    id="7ba142bb-cf1e-4adf-84c3-1fe0552b876e"
+    documentation="Kan løses ved å legge inn egen kodeliste i kodelistetjenesten som inngår i datakatalogen. Bør kanskje da ha krav om at intern kodeliste er satt opp med mapping til EU-temaene, slik at det er de siste som blir brukt ved publisering til felles datakatalog"/>

@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="6. Tilgangsoversikt ... logg? "
+    id="51fcce4e-1d64-41fd-892e-a68203490dfa"
+    documentation="Egentlig logging av hvilke datasett som det er interesse for – dekkes kanskje av google analytics i FDK, hva kan være tilsvarende i intern datakatalog? Evt også faktisk bruk av datasett, men det må kanskje løses i API-katalog?"/>

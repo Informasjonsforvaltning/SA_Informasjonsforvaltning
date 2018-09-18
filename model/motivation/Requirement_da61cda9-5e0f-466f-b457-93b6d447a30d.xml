@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="4. Mer detaljering av type data"
+    id="da61cda9-5e0f-466f-b457-93b6d447a30d"
+    documentation="Type data – strukturert, ustrukturert, spørreundersøkelse, kvantitativt, kvalitativt, tidsserie, tverrsnitt, paneldata, aggregat av andre datasett (f.eks. årlige datasett som kan aggregeres til et datasett som er en tidsserie, eller datasett fra kommuner som tilsammen er data fra hele landet)"/>
