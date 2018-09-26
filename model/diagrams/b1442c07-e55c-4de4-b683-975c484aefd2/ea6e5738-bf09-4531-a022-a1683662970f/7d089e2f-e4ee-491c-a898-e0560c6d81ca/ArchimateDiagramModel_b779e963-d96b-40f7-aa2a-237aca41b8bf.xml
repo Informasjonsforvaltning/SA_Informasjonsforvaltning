@@ -84,10 +84,10 @@
             href="FlowRelationship_30cbd1ca-5b80-4982-9a5b-3bd95da2ce71.xml#30cbd1ca-5b80-4982-9a5b-3bd95da2ce71"/>
       </sourceConnections>
       <bounds
-          x="264"
+          x="216"
           y="108"
-          width="120"
-          height="60"/>
+          width="181"
+          height="85"/>
       <archimateElement
           xsi:type="archimate:ApplicationInterface"
           href="ApplicationInterface_1ece023d-b6fd-4ced-aca1-91c70a236d73.xml#1ece023d-b6fd-4ced-aca1-91c70a236d73"/>
@@ -262,7 +262,7 @@
           x="192"
           y="192"
           width="133"
-          height="56"/>
+          height="73"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -374,7 +374,7 @@
     </sourceConnections>
     <bounds
         x="-84"
-        y="140"
+        y="156"
         width="120"
         height="55"/>
     <archimateElement

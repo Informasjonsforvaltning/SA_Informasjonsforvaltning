@@ -1,5 +1,5 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Capability lookup (OASIS SMP)"
+    name="Addresseringstjeneste - Capability lookup (OASIS SMP)"
     id="1ece023d-b6fd-4ced-aca1-91c70a236d73"
     documentation="Request: Documenttype/API-spesifikasjon + org.nr.&#xA;Response: Endpoint URL"/>
