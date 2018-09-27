@@ -56,7 +56,8 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -77,43 +78,264 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/d6d8001a-ad35-47ab-999d-0a3061d7c9fa.html" target="element"> Run-time </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-												<tr><td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> Konsument applikasjon </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-										
-										<tr><td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
-												<tr><td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-														<tr><td> <a href="../elements/aa68bf5b-4075-47f3-8d48-88e14bcc184f.html" target="element"> API-beskrivelse (OAS) </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
-														<tr><td> <a href="../elements/d3bd6e3d-a24d-41bb-9de7-3bb6a3bd41ba.html" target="element"> API tilbyder </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
-														<tr><td> <a href="../elements/2d1c4705-f2c6-4cc4-9f91-7603ff13b87a.html" target="element"> Servers </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
-												
-												<tr><td> <a href="../elements/ede515a9-4862-47d2-a5e3-28ad9b9ab59b.html" target="element"> Registreringsapplikasjon API </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-												<tr><td> <a href="../elements/e65bfc2b-44aa-488d-84c7-f5adead5e569.html" target="element"> utvid API-beskrivelse </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-												<tr><td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> opprett API beskrivelse </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-												<tr><td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-												<tr><td> <a href="../elements/c722d20d-bab0-4657-98b4-dffa56df9705.html" target="element"> S&#248;k og oppslag API </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-												<tr><td> <a href="../elements/3b34800f-91c1-4548-8e70-4ba065b38dc9.html" target="element"> REST GET API-katalog </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-												<tr><td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-												<tr><td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-										
-										<tr><td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> Informasjonsutveksling (runtime) </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-										<tr><td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-										<tr><td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> API-konsument </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/d6d8001a-ad35-47ab-999d-0a3061d7c9fa.html" target="element"> Run-time </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
+													<tr><td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> Konsument applikasjon </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											
+											<tr><td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
+													<tr><td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+															<tr><td> <a href="../elements/aa68bf5b-4075-47f3-8d48-88e14bcc184f.html" target="element"> API-beskrivelse (OAS) </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+															<tr><td> <a href="../elements/d3bd6e3d-a24d-41bb-9de7-3bb6a3bd41ba.html" target="element"> API tilbyder </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+															<tr><td> <a href="../elements/2d1c4705-f2c6-4cc4-9f91-7603ff13b87a.html" target="element"> Servers </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+													
+													<tr><td> <a href="../elements/ede515a9-4862-47d2-a5e3-28ad9b9ab59b.html" target="element"> Registreringsapplikasjon API </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+													<tr><td> <a href="../elements/e65bfc2b-44aa-488d-84c7-f5adead5e569.html" target="element"> utvid API-beskrivelse </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+													<tr><td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> opprett API beskrivelse </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+													<tr><td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+													<tr><td> <a href="../elements/c722d20d-bab0-4657-98b4-dffa56df9705.html" target="element"> S&#248;k og oppslag API </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+													<tr><td> <a href="../elements/3b34800f-91c1-4548-8e70-4ba065b38dc9.html" target="element"> REST GET API-katalog </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+													<tr><td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+													<tr><td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+											
+											<tr><td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> Informasjonsutveksling (runtime) </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+											<tr><td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+											<tr><td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> API-konsument </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/a605f98f-4779-44cb-b8a2-fe286fd6a728.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a605f98f-4779-44cb-b8a2-fe286fd6a728.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d6d8001a-ad35-47ab-999d-0a3061d7c9fa.html" target="element"> Run-time </a> </td>
+																		<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> Konsument applikasjon </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/25547449-cc63-4908-975d-90fd3933a50b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/25547449-cc63-4908-975d-90fd3933a50b.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> Konsument applikasjon </a> </td>
+																				<td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> Informasjonsutveksling (runtime) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/b058eb2d-5c50-4b9d-a28c-0fe27ae89930.html" target="element"> request </a> </td>
+																				<td> <a href="../elements/b058eb2d-5c50-4b9d-a28c-0fe27ae89930.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> Konsument applikasjon </a> </td>
+																				<td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/f58bd9e5-b514-4a1a-941a-31943294b9fe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f58bd9e5-b514-4a1a-941a-31943294b9fe.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f32037b4-b12a-4f8c-acba-246978dc0418.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f32037b4-b12a-4f8c-acba-246978dc0418.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/ede515a9-4862-47d2-a5e3-28ad9b9ab59b.html" target="element"> Registreringsapplikasjon API </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7dca35c0-8c99-4601-a619-f124a1976fef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7dca35c0-8c99-4601-a619-f124a1976fef.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/e65bfc2b-44aa-488d-84c7-f5adead5e569.html" target="element"> utvid API-beskrivelse </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/1def97e5-8660-4ea7-b5d3-82b594a72b79.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1def97e5-8660-4ea7-b5d3-82b594a72b79.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> opprett API beskrivelse </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/077385d6-43ca-40b4-bd42-9721aec880a1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/077385d6-43ca-40b4-bd42-9721aec880a1.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d3b0ecf2-0f86-46ae-898e-f775a335e9f8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d3b0ecf2-0f86-46ae-898e-f775a335e9f8.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/c722d20d-bab0-4657-98b4-dffa56df9705.html" target="element"> S&#248;k og oppslag API </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/95bc987f-2387-4e14-aa63-5deccbe880b0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/95bc987f-2387-4e14-aa63-5deccbe880b0.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/3b34800f-91c1-4548-8e70-4ba065b38dc9.html" target="element"> REST GET API-katalog </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/eb6c1e31-a39a-4211-9a9a-a4c4e4632817.html" target="element">  </a> </td>
+																		<td> <a href="../elements/eb6c1e31-a39a-4211-9a9a-a4c4e4632817.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/18dc02a7-3000-4b5d-aeef-d1700c2d3add.html" target="element">  </a> </td>
+																		<td> <a href="../elements/18dc02a7-3000-4b5d-aeef-d1700c2d3add.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7d1ac10a-dfe0-4689-a0e6-54bcefb91ed9.html" target="element"> Design time </a> </td>
+																		<td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/f84af6b7-b3bd-4afc-9bf8-c6f58d75cfd7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/f84af6b7-b3bd-4afc-9bf8-c6f58d75cfd7.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td>
+																				<td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> opprett API beskrivelse </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/73e80bbe-5243-4e34-b649-7e78ad0db00a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/73e80bbe-5243-4e34-b649-7e78ad0db00a.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td>
+																				<td> <a href="../elements/aa68bf5b-4075-47f3-8d48-88e14bcc184f.html" target="element"> API-beskrivelse (OAS) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/7715e4c9-e939-4087-83e5-aa653a2b0387.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7715e4c9-e939-4087-83e5-aa653a2b0387.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td>
+																				<td> <a href="../elements/d3bd6e3d-a24d-41bb-9de7-3bb6a3bd41ba.html" target="element"> API tilbyder </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/9bce8e3a-d71c-4109-8655-93c4d7c45b2c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/9bce8e3a-d71c-4109-8655-93c4d7c45b2c.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td>
+																				<td> <a href="../elements/2d1c4705-f2c6-4cc4-9f91-7603ff13b87a.html" target="element"> Servers </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/24b919a5-e0cb-45ae-b2b2-8f7b160ab261.html" target="element">  </a> </td>
+																				<td> <a href="../elements/24b919a5-e0cb-45ae-b2b2-8f7b160ab261.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Lokal API-katalog </a> </td>
+																				<td> <a href="../elements/ede515a9-4862-47d2-a5e3-28ad9b9ab59b.html" target="element"> Registreringsapplikasjon API </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/be1fad2f-38b4-41ae-87db-2bb07b7ab11e.html" target="element">  </a> </td>
+																						<td> <a href="../elements/be1fad2f-38b4-41ae-87db-2bb07b7ab11e.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																						<td> <a href="../elements/aa68bf5b-4075-47f3-8d48-88e14bcc184f.html" target="element"> API-beskrivelse (OAS) </a> </td>
+																						<td> <a href="../elements/2d1c4705-f2c6-4cc4-9f91-7603ff13b87a.html" target="element"> Servers </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/6036f6f1-539d-4fe1-ae9d-4097ea9750aa.html" target="element">  </a> </td>
+																						<td> <a href="../elements/6036f6f1-539d-4fe1-ae9d-4097ea9750aa.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																						<td> <a href="../elements/d3bd6e3d-a24d-41bb-9de7-3bb6a3bd41ba.html" target="element"> API tilbyder </a> </td>
+																						<td> <a href="../elements/aa68bf5b-4075-47f3-8d48-88e14bcc184f.html" target="element"> API-beskrivelse (OAS) </a> </td>
+																					</tr>
+
+													
+																			<tr>
+																				<td> <a href="../elements/6e6f75d1-a04a-4dbf-9d03-d673854b24e4.html" target="element">  </a> </td>
+																				<td> <a href="../elements/6e6f75d1-a04a-4dbf-9d03-d673854b24e4.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/ede515a9-4862-47d2-a5e3-28ad9b9ab59b.html" target="element"> Registreringsapplikasjon API </a> </td>
+																				<td> <a href="../elements/e65bfc2b-44aa-488d-84c7-f5adead5e569.html" target="element"> utvid API-beskrivelse </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/fc2efaca-8b5e-4d25-8965-f8ab73ce7c6c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/fc2efaca-8b5e-4d25-8965-f8ab73ce7c6c.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/ede515a9-4862-47d2-a5e3-28ad9b9ab59b.html" target="element"> Registreringsapplikasjon API </a> </td>
+																				<td> <a href="../elements/3b34800f-91c1-4548-8e70-4ba065b38dc9.html" target="element"> REST GET API-katalog </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/1c5d6433-6bf7-4232-a22f-dd249b2d047f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/1c5d6433-6bf7-4232-a22f-dd249b2d047f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/e65bfc2b-44aa-488d-84c7-f5adead5e569.html" target="element"> utvid API-beskrivelse </a> </td>
+																				<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/d83504bf-b5e2-49d8-99ca-7510a9b6432a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/d83504bf-b5e2-49d8-99ca-7510a9b6432a.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> opprett API beskrivelse </a> </td>
+																				<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/3e086735-e91b-481f-8fc0-53f3de30b47c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/3e086735-e91b-481f-8fc0-53f3de30b47c.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/c722d20d-bab0-4657-98b4-dffa56df9705.html" target="element"> S&#248;k og oppslag API </a> </td>
+																				<td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/6a9eb8ce-d98b-489a-946f-78a40f2bd5f7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/6a9eb8ce-d98b-489a-946f-78a40f2bd5f7.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/3b34800f-91c1-4548-8e70-4ba065b38dc9.html" target="element"> REST GET API-katalog </a> </td>
+																				<td> <a href="../elements/c722d20d-bab0-4657-98b4-dffa56df9705.html" target="element"> S&#248;k og oppslag API </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/627af481-9a25-4a04-9604-7210872f8aba.html" target="element">  </a> </td>
+																				<td> <a href="../elements/627af481-9a25-4a04-9604-7210872f8aba.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td>
+																				<td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/17f2d7ee-1d11-4701-9edf-0ab81c6679a3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/17f2d7ee-1d11-4701-9edf-0ab81c6679a3.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td>
+																		<td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/09512f17-0b52-44fc-b7a4-9868a0d31705.html" target="element">  </a> </td>
+																		<td> <a href="../elements/09512f17-0b52-44fc-b7a4-9868a0d31705.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td>
+																		<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+																	<tr>
+																		<td> <a href="../elements/9e177193-4db0-48f2-91b1-a0d2a1f466b9.html" target="element"> response </a> </td>
+																		<td> <a href="../elements/9e177193-4db0-48f2-91b1-a0d2a1f466b9.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td>
+																		<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> Konsument applikasjon </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/44811959-1800-49e0-b1f0-0c063fb99ff0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/44811959-1800-49e0-b1f0-0c063fb99ff0.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> API-konsument </a> </td>
+																		<td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> Informasjonsutveksling (runtime) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/fddcfac4-5ea2-40f3-8474-8839dc969a3c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/fddcfac4-5ea2-40f3-8474-8839dc969a3c.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> API-konsument </a> </td>
+																		<td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>

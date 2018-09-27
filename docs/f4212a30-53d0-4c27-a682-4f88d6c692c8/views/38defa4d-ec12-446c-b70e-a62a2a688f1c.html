@@ -45,7 +45,8 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -66,31 +67,121 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/5f2e7570-cd44-4914-93d8-adb259c54eb6.html" target="element"> Difi </a> </td><td class="i18n-elementtype-Location"></td></tr>
-												<tr><td> <a href="../elements/3e7acf4e-4205-4d15-8035-6ba1a9298359.html" target="element"> ID-porten </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-										
-										<tr><td> <a href="../elements/d31f952d-9df8-4df8-bb93-8a7681c35114.html" target="element"> Bruker </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-										<tr><td> <a href="../elements/258f5037-0973-4f28-956f-a4e7d495b715.html" target="element"> Datasett-eier </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/1a7fb937-9783-4acf-8fb9-0bf10bfa7c72.html" target="element"> Nasjonalt </a> </td><td class="i18n-elementtype-Location"></td></tr>
-												<tr><td> <a href="../elements/78aff219-c8b6-4c52-a0a9-d2cf7ccf69fe.html" target="element"> Enhetsregisteret </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-												<tr><td> <a href="../elements/20b92cc7-3c4a-4b21-a119-5f5bb75fe7f1.html" target="element"> KOR </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-												<tr><td> <a href="../elements/70f9be0f-f3a2-415d-b7c4-ab8301df47d3.html" target="element"> Altinn Autorisasjon </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-												<tr><td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-										
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/5f2e7570-cd44-4914-93d8-adb259c54eb6.html" target="element"> Difi </a> </td><td class="i18n-elementtype-Location"></td></tr>
+													<tr><td> <a href="../elements/3e7acf4e-4205-4d15-8035-6ba1a9298359.html" target="element"> ID-porten </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+											
+											<tr><td> <a href="../elements/d31f952d-9df8-4df8-bb93-8a7681c35114.html" target="element"> Bruker </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<tr><td> <a href="../elements/258f5037-0973-4f28-956f-a4e7d495b715.html" target="element"> Datasett-eier </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/1a7fb937-9783-4acf-8fb9-0bf10bfa7c72.html" target="element"> Nasjonalt </a> </td><td class="i18n-elementtype-Location"></td></tr>
+													<tr><td> <a href="../elements/78aff219-c8b6-4c52-a0a9-d2cf7ccf69fe.html" target="element"> Enhetsregisteret </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+													<tr><td> <a href="../elements/20b92cc7-3c4a-4b21-a119-5f5bb75fe7f1.html" target="element"> KOR </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+													<tr><td> <a href="../elements/70f9be0f-f3a2-415d-b7c4-ab8301df47d3.html" target="element"> Altinn Autorisasjon </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+													<tr><td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/86f9b17b-4fcd-4200-b892-4e8123c18cec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/86f9b17b-4fcd-4200-b892-4e8123c18cec.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/5f2e7570-cd44-4914-93d8-adb259c54eb6.html" target="element"> Difi </a> </td>
+																		<td> <a href="../elements/3e7acf4e-4205-4d15-8035-6ba1a9298359.html" target="element"> ID-porten </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/2485aae9-315d-4e83-93d1-94551af21b70.html" target="element"> autentisering </a> </td>
+																				<td> <a href="../elements/2485aae9-315d-4e83-93d1-94551af21b70.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/3e7acf4e-4205-4d15-8035-6ba1a9298359.html" target="element"> ID-porten </a> </td>
+																				<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																			</tr>
+
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+																	<tr>
+																		<td> <a href="../elements/d93a6c4b-021b-41a6-91b1-037aeb0e6cae.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d93a6c4b-021b-41a6-91b1-037aeb0e6cae.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1a7fb937-9783-4acf-8fb9-0bf10bfa7c72.html" target="element"> Nasjonalt </a> </td>
+																		<td> <a href="../elements/78aff219-c8b6-4c52-a0a9-d2cf7ccf69fe.html" target="element"> Enhetsregisteret </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b9482e8c-4040-42e6-9a7c-cafc35bf259d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b9482e8c-4040-42e6-9a7c-cafc35bf259d.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1a7fb937-9783-4acf-8fb9-0bf10bfa7c72.html" target="element"> Nasjonalt </a> </td>
+																		<td> <a href="../elements/20b92cc7-3c4a-4b21-a119-5f5bb75fe7f1.html" target="element"> KOR </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/a2b26cdc-3ce4-4e9f-94cc-948d0c2aa53d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a2b26cdc-3ce4-4e9f-94cc-948d0c2aa53d.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1a7fb937-9783-4acf-8fb9-0bf10bfa7c72.html" target="element"> Nasjonalt </a> </td>
+																		<td> <a href="../elements/70f9be0f-f3a2-415d-b7c4-ab8301df47d3.html" target="element"> Altinn Autorisasjon </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d0a2d6a7-5173-4431-a2d2-7176957ec461.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d0a2d6a7-5173-4431-a2d2-7176957ec461.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1a7fb937-9783-4acf-8fb9-0bf10bfa7c72.html" target="element"> Nasjonalt </a> </td>
+																		<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/9a314112-e445-4aa3-bcae-0c46f43cf6e7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/9a314112-e445-4aa3-bcae-0c46f43cf6e7.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/78aff219-c8b6-4c52-a0a9-d2cf7ccf69fe.html" target="element"> Enhetsregisteret </a> </td>
+																				<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/fcf980b0-89b9-4c8a-8f9d-54066fd7406b.html" target="element"> autorisasjon </a> </td>
+																				<td> <a href="../elements/fcf980b0-89b9-4c8a-8f9d-54066fd7406b.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/70f9be0f-f3a2-415d-b7c4-ab8301df47d3.html" target="element"> Altinn Autorisasjon </a> </td>
+																				<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7c59e68e-e812-424d-b5f5-960856fc7964.html" target="element"> adminstrasjon </a> </td>
+																				<td> <a href="../elements/7c59e68e-e812-424d-b5f5-960856fc7964.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																				<td> <a href="../elements/258f5037-0973-4f28-956f-a4e7d495b715.html" target="element"> Datasett-eier </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/74488a9a-acc5-4919-8558-fe93926298bc.html" target="element">  </a> </td>
+																				<td> <a href="../elements/74488a9a-acc5-4919-8558-fe93926298bc.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																				<td> <a href="../elements/20b92cc7-3c4a-4b21-a119-5f5bb75fe7f1.html" target="element"> KOR </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/05ca656a-92ab-4a42-bb5d-641988d4768f.html" target="element"> leser </a> </td>
+																				<td> <a href="../elements/05ca656a-92ab-4a42-bb5d-641988d4768f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/920ddbd3-ff04-4f72-93bd-b3cac35a7058.html" target="element"> Felles Datasettkatalog </a> </td>
+																				<td> <a href="../elements/d31f952d-9df8-4df8-bb93-8a7681c35114.html" target="element"> Bruker </a> </td>
+																			</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
