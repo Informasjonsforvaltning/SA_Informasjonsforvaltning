@@ -1,12 +1,11 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="organisasjonsnummer"
-    id="f3ae7401-802d-40e1-ae82-0840f2c95f19">
+    id="2bcdddfb-db3c-439b-9ed1-ae2caf94dea8">
   <source
-      xsi:type="archimate:BusinessRole"
-      href="BusinessRole_5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.xml#5941cd3b-b0b6-4f19-8afc-eb46b26b6db0"/>
-  <target
       xsi:type="archimate:DataObject"
       href="DataObject_d3bd6e3d-a24d-41bb-9de7-3bb6a3bd41ba.xml#d3bd6e3d-a24d-41bb-9de7-3bb6a3bd41ba"/>
+  <target
+      xsi:type="archimate:Meaning"
+      href="Meaning_86f795e9-8146-4101-85e5-35d9aace9810.xml#86f795e9-8146-4101-85e5-35d9aace9810"/>
 </archimate:AssociationRelationship>

@@ -47,16 +47,16 @@
       xsi:type="archimate:DiagramModelNote"
       id="c8163861-0e8f-4fdd-9734-d8df8ed32162"
       textAlignment="1"
-      content="{&#xA;  &quot;servers&quot;: [&#xA;    {&#xA;      &quot;url&quot;: &quot;https://{username}.gigantic-server.com:{port}/{basePath}&quot;,&#xA;      &quot;description&quot;: &quot;The production API server&quot;,&#xA;      &quot;variables&quot;: {&#xA;        &quot;username&quot;: {&#xA;          &quot;default&quot;: &quot;demo&quot;,&#xA;          &quot;description&quot;: &quot;this value is assigned by the service provider, in this example `gigantic-server.com`&quot;&#xA;        },&#xA;        &quot;port&quot;: {&#xA;          &quot;enum&quot;: [&#xA;            &quot;8443&quot;,&#xA;            &quot;443&quot;&#xA;          ],&#xA;          &quot;default&quot;: &quot;8443&quot;&#xA;        },&#xA;        &quot;basePath&quot;: {&#xA;          &quot;default&quot;: &quot;v2&quot;&#xA;        }&#xA;      }&#xA;    }&#xA;  ]&#xA;}">
+      content="{&#xA;  &quot;servers&quot;: [&#xA;      &quot;url&quot;: &quot;https://data.brreg.no/enhetsregisteret/api&quot;,&#xA;      &quot;description&quot;: &quot;Produksjon&quot;&#xA;  }&#xA;]  ]&#xA;}">
     <sourceConnections
         id="60919960-aa16-4a49-ad98-b38e162e4f70"
         source="c8163861-0e8f-4fdd-9734-d8df8ed32162"
         target="e3040574-0ddb-42cc-b746-2e79cd7e9c6e"/>
     <bounds
         x="1116"
-        y="348"
+        y="600"
         width="421"
-        height="385"/>
+        height="109"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
