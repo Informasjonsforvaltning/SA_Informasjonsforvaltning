@@ -62,9 +62,9 @@
       xsi:type="archimate:DiagramModelNote"
       id="3bf608bc-ac2e-455d-8723-f79e8d5757e4"
       textAlignment="1"
-      content="Scenario 1 - Frittstående åpne data API med betaling&#xA;1. En eier av et åpent datasett ønsker å tilby et API til omverdenen. &#xA;2. Eieren etablerer et API for datasettet som tilbys gjennom en API-tilbyder&#xA;3. API-tilbyder oppretter en API-beskrivelse i sin API-manager (lokal API-katalog) eller direkte som en Open API Specification fil&#xA;4. API-et høstes av API-katalog, og gjøres tilgjeneglig som en søk og oppslagstjeneste&#xA;5. API-konsument finner API-et i API-katalogen, og basert på OAS beskrivelsen setter igang utvikling av klient-applikasjon&#xA;6. Klient-applikasjon, nå satt i produksjon, kaller API-et. &#xA;">
+      content="Scenario 1.1 - Frittstående åpne data API&#xA;1. En eier av et åpent datasett ønsker å tilby et API til omverdenen. &#xA;2. Datasetteieren etablerer et API for datasettet som tilbys fra en API-tilbyder&#xA;3. API-tilbyder oppretter en API-beskrivelse direkte som en Open API Specification fil&#xA;4. API-beskrivelsen høstes maskinelt av felles API-katalog, og gjøres tilgjeneglig som en søk og oppslagstjeneste&#xA;5. Tjenesteier (applikasjons-/tjenesteutvikler) finner API-et i API-katalogen, og basert på OAS beskrivelsen setter igang utvikling av konsument-applikasjon og kall til API-et&#xA;6. Sluttbruker benytter en tjeneste og konsument-applikasjon, som nå satt i produksjon, kaller API-et. &#xA;">
     <bounds
-        x="-72"
+        x="-120"
         y="-48"
         width="829"
         height="133"/>
@@ -87,10 +87,10 @@
         source="797fb936-5494-4b59-8f1c-650221c2f503"
         target="a860e864-6207-4cbe-b627-ada3e6b79cea">
       <bendpoints
-          startX="-84"
+          startX="-60"
           startY="249"
-          endX="227"
-          endY="-99"/>
+          endX="264"
+          endY="-135"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_2b60a5a1-6c37-492b-9a76-99d4e06dd595.xml#2b60a5a1-6c37-492b-9a76-99d4e06dd595"/>
@@ -98,7 +98,7 @@
     <bounds
         x="180"
         y="132"
-        width="217"
+        width="277"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
