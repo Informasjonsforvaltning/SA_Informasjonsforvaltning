@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Scope"
     id="ed2c157f-5ae1-41f4-8bc6-26ff0c29429a"
-    documentation="API scopes allow you to define the API data accessible to your applications."/>
+    documentation="API scopes allow you to define the API data accessible to your applications.">
+  <properties
+      key="fagområde"
+      value="eOppslag"/>
+</archimate:Meaning>
