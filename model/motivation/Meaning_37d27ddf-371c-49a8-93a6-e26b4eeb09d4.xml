@@ -1,4 +1,8 @@
 <archimate:Meaning
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Identitietsstyring"
-    id="37d27ddf-371c-49a8-93a6-e26b4eeb09d4"/>
+    id="37d27ddf-371c-49a8-93a6-e26b4eeb09d4">
+  <properties
+      key="fagområde"
+      value="Sikkerhet"/>
+</archimate:Meaning>
