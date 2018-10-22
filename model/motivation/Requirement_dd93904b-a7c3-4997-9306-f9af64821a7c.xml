@@ -1,4 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="2-3 Som datasetteier ønsker jeg å registrere flere egenskaper (Dataeier - kontaktinformasjon (fritekstfelt), Datasetteier - kontaktinformasjon (fritekstfelt), Teknisk kontaktinformasjon (fritekstfelt), GDPR-relatert informasjon) om datasett enn det som er mulig i Felles datakatalog slik at interne behov oppfylles i henhold til interne krav. "
+    name="2-3-1 Som datasetteier ønsker jeg å registrere kontaktinformasjon til dataeier, datasetteier og teknisk kontakt slik at interne behov oppfylles i henhold til interne krav"
     id="dd93904b-a7c3-4997-9306-f9af64821a7c"/>
