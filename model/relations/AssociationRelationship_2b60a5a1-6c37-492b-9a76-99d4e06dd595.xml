@@ -4,8 +4,8 @@
     name="utvikler"
     id="2b60a5a1-6c37-492b-9a76-99d4e06dd595">
   <source
-      xsi:type="archimate:BusinessRole"
-      href="BusinessRole_bc2e2415-70e7-4acf-8190-6f21b56e3743.xml#bc2e2415-70e7-4acf-8190-6f21b56e3743"/>
+      xsi:type="archimate:BusinessService"
+      href="BusinessService_98212438-1737-4031-b4b0-8e1f2d952aba.xml#98212438-1737-4031-b4b0-8e1f2d952aba"/>
   <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_f5ae1b90-9218-49cc-b375-9bbc2d384e3d.xml#f5ae1b90-9218-49cc-b375-9bbc2d384e3d"/>

@@ -111,7 +111,7 @@
       textAlignment="1"
       content="Scenario 1 - API-med personopplysninger delegering&#xA;Leikanger Kommune ønsker at Evry skal bruke APIet for dem&#xA;&#xA;Leikanger kommune kjøper et kommunalt fagsystem som skytjeneste fra leverandøren Evry. Systemet har behov for trydeopplysninger fra NAV sitt API.&#xA;&#xA;Evry sitt system har allerede en integrasjon i Maskinporten, og har tilgang til aktuelt scope på vegne av andre kunder, men siden de mangler delegering, vil de ikke få tokens utstedt til Leikanger kommune.&#xA;&#xA;En bemyndiget ansatt i kommunen logger inn i Altinn, og delegerer tilgang til at Evry frå lov til å opptre på vegne av dem, opp mot APIet. Dette er realisert ved at Altinn kaller selvbetjeningsAPIet for å oppdatere Maskinporten sin delegeringstabell:&#xA;">
     <bounds
-        x="-336"
+        x="-632"
         y="-72"
         width="1045"
         height="169"/>
@@ -143,15 +143,6 @@
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_fddcfac4-5ea2-40f3-8474-8839dc969a3c.xml#fddcfac4-5ea2-40f3-8474-8839dc969a3c"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="0a885e47-40c8-46eb-a01f-4970283c15a5"
-        source="be2281f9-fc50-4ffb-8cba-53a4d3bd3679"
-        target="9b261f85-bbdd-4024-a60a-38204968553b">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_2b60a5a1-6c37-492b-9a76-99d4e06dd595.xml#2b60a5a1-6c37-492b-9a76-99d4e06dd595"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -796,7 +787,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="9b261f85-bbdd-4024-a60a-38204968553b"
-      targetConnections="0a885e47-40c8-46eb-a01f-4970283c15a5 104c7095-caa9-4b93-b1aa-fa94df0cb256">
+      targetConnections="104c7095-caa9-4b93-b1aa-fa94df0cb256">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="4b4864fd-682c-4a70-9ee6-d960a7da2b78"
