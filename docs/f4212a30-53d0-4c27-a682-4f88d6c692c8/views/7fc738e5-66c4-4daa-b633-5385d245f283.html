@@ -33,13 +33,14 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">Dette viewpointet dokumenterer målbildet for korleis våre komponenter er deployet til et kjørteidsmiljø.</textarea>
+						<textarea id="docsrc" style="display:none">Dette viewpointet dokumenterer m&#229;lbildet for korleis v&#229;re komponenter er deployet til et kj&#248;rteidsmilj&#248;.</textarea>
 						<div id="doctgt" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
@@ -54,20 +55,36 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>

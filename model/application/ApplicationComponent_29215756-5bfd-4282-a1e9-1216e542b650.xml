@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Virksomhetsintern  API-katalog"
-    id="29215756-5bfd-4282-a1e9-1216e542b650"/>
+    id="29215756-5bfd-4282-a1e9-1216e542b650"
+    documentation="Virksomhetens interne API-katalog som tilbyr funksjonalitet som understøtter høsting."/>

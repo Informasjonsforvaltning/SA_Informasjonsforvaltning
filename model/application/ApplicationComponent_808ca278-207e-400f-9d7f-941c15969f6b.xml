@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="API-katalog Admin GUI"
-    id="808ca278-207e-400f-9d7f-941c15969f6b"/>
+    id="808ca278-207e-400f-9d7f-941c15969f6b"
+    documentation="Et administrativt GUI der virksomheter administrerer sin API-katalog og høsteløsning fra eventuell virksomhetsintern API-katalog"/>

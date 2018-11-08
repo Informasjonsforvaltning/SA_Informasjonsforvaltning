@@ -1,4 +1,5 @@
 <archimate:Location
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Virksomhet"
-    id="7ed209c1-4992-4eb6-838e-106e5758ccc0"/>
+    id="7ed209c1-4992-4eb6-838e-106e5758ccc0"
+    documentation="En virksomhet med sine egne kataloger som de har driftsansvar for."/>

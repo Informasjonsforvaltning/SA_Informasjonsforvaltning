@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Felles Datakatalog Portal"
     id="4eaba593-3ae4-4f3d-9aac-3c25db808121"
-    documentation="Felles Datakatalog (FDK) er ein komponent som rommer alle x-kataloger:&#xD;&#xA;- Felles Datasettkatalog&#xD;&#xA;- Felles API-katalog&#xD;&#xA;- Felles Begrepskatalog&#xD;&#xA;- Felles Informasjonsmodell-katalog&#xD;&#xA;- ..."/>
+    documentation="Felles Datakatalog Portal (FDK) er ein GUI komponent som samler informasjon fra alle kataloger:&#xD;&#xA;- Felles Datasettkatalog&#xD;&#xA;- Felles API-katalog&#xD;&#xA;- Felles Begrepskatalog&#xD;&#xA;- Felles Informasjonsmodell-katalog&#xD;&#xA;- ..."/>

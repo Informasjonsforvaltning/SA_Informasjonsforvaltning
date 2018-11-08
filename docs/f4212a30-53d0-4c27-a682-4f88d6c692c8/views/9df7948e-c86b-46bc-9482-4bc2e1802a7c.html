@@ -54,7 +54,8 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -75,46 +76,193 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> Tjenesteeier (Applikasjons-/tjenesteutvikler/konsument) </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-										<tr><td> <a href="../elements/9f3d6475-2294-4aff-b4f5-d8cb9a93188a.html" target="element"> Sluttbruker </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-										<tr><td> <a href="../elements/e6be6e9c-c33d-4548-ba84-b5c6dc9e9b42.html" target="element"> Oppdage API </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-												<tr><td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-										
-										<tr><td> <a href="../elements/0de1a4de-dbc1-4452-8809-aef733fa4009.html" target="element"> Tjeneste med informasjonsbehov </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> En tjeneste </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-										
-										<tr><td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-										<tr><td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> Opprett API beskrivelse </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-										<tr><td> <a href="../elements/7ed209c1-4992-4eb6-838e-106e5758ccc0.html" target="element"> Virksomhet </a> </td><td class="i18n-elementtype-Location"></td></tr>
-												<tr><td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Virksomhetsintern API-katalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-										
-										<tr><td> <a href="../elements/0cda4692-073b-439a-8af6-f4e0e2c9023b.html" target="element"> Felles API-katalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-										<tr><td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> En konsument applikasjon </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/66a6948a-05b0-438f-96b9-8dc21f0bc0c0.html" target="element"> Et applikasjonsgrensesnitt </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->	
-										<tr><td> <a href="../elements/98212438-1737-4031-b4b0-8e1f2d952aba.html" target="element"> Tjenesteutvikling </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> Tjenesteeier (Applikasjons-/tjenesteutvikler/konsument) </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<tr><td> <a href="../elements/9f3d6475-2294-4aff-b4f5-d8cb9a93188a.html" target="element"> Sluttbruker </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
+											<tr><td> <a href="../elements/e6be6e9c-c33d-4548-ba84-b5c6dc9e9b42.html" target="element"> Oppdage API </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+													<tr><td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+											
+											<tr><td> <a href="../elements/0de1a4de-dbc1-4452-8809-aef733fa4009.html" target="element"> Tjeneste med informasjonsbehov </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> En tjeneste </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
+											
+											<tr><td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+											<tr><td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> Opprett API beskrivelse </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+											<tr><td> <a href="../elements/7ed209c1-4992-4eb6-838e-106e5758ccc0.html" target="element"> Virksomhet </a> </td><td class="i18n-elementtype-Location"></td></tr>
+													<tr><td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Virksomhetsintern  API-katalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											
+											<tr><td> <a href="../elements/0cda4692-073b-439a-8af6-f4e0e2c9023b.html" target="element"> Felles API-katalog </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+											<tr><td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> En konsument applikasjon </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/66a6948a-05b0-438f-96b9-8dc21f0bc0c0.html" target="element"> Et applikasjonsgrensesnitt </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<tr><td> <a href="../elements/98212438-1737-4031-b4b0-8e1f2d952aba.html" target="element"> Tjenesteutvikling </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/09512f17-0b52-44fc-b7a4-9868a0d31705.html" target="element">  </a> </td>
+																		<td> <a href="../elements/09512f17-0b52-44fc-b7a4-9868a0d31705.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td>
+																		<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/84193f6e-b2b6-4cd8-b756-798dd8eed277.html" target="element"> utvikler </a> </td>
+																		<td> <a href="../elements/84193f6e-b2b6-4cd8-b756-798dd8eed277.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/5941cd3b-b0b6-4f19-8afc-eb46b26b6db0.html" target="element"> API-tilbyder </a> </td>
+																		<td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+																	<tr>
+																		<td> <a href="../elements/fddcfac4-5ea2-40f3-8474-8839dc969a3c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/fddcfac4-5ea2-40f3-8474-8839dc969a3c.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> Tjenesteeier (Applikasjons-/tjenesteutvikler/konsument) </a> </td>
+																		<td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/26fc6332-97ea-4988-826b-60fc0cec78c7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/26fc6332-97ea-4988-826b-60fc0cec78c7.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/bc2e2415-70e7-4acf-8190-6f21b56e3743.html" target="element"> Tjenesteeier (Applikasjons-/tjenesteutvikler/konsument) </a> </td>
+																		<td> <a href="../elements/98212438-1737-4031-b4b0-8e1f2d952aba.html" target="element"> Tjenesteutvikling </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/3f46506a-9605-475f-b80b-ff3f00572046.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3f46506a-9605-475f-b80b-ff3f00572046.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/e6be6e9c-c33d-4548-ba84-b5c6dc9e9b42.html" target="element"> Oppdage API </a> </td>
+																		<td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/bca19f5f-b7f3-4c95-9445-1cf7b7c74f41.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bca19f5f-b7f3-4c95-9445-1cf7b7c74f41.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/e6be6e9c-c33d-4548-ba84-b5c6dc9e9b42.html" target="element"> Oppdage API </a> </td>
+																		<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/b3f85edd-93e4-46d6-86da-f241e091e8fd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b3f85edd-93e4-46d6-86da-f241e091e8fd.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/0de1a4de-dbc1-4452-8809-aef733fa4009.html" target="element"> Tjeneste med informasjonsbehov </a> </td>
+																		<td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> En tjeneste </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/844f0c95-b887-4ea4-ade6-e0ce13163039.html" target="element">  </a> </td>
+																				<td> <a href="../elements/844f0c95-b887-4ea4-ade6-e0ce13163039.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> En tjeneste </a> </td>
+																				<td> <a href="../elements/9f3d6475-2294-4aff-b4f5-d8cb9a93188a.html" target="element"> Sluttbruker </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/627af481-9a25-4a04-9604-7210872f8aba.html" target="element">  </a> </td>
+																		<td> <a href="../elements/627af481-9a25-4a04-9604-7210872f8aba.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td>
+																		<td> <a href="../elements/78f8119d-f5d0-4f61-ba93-f45846984b34.html" target="element"> Finn API </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/d83504bf-b5e2-49d8-99ca-7510a9b6432a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d83504bf-b5e2-49d8-99ca-7510a9b6432a.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> Opprett API beskrivelse </a> </td>
+																		<td> <a href="../elements/4ca282b6-35a7-48b0-89b2-38a727e76544.html" target="element"> Administrasjon av API-beskrivelser (design time) </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/1dddc555-3407-4f7b-8214-10af35a2e888.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1dddc555-3407-4f7b-8214-10af35a2e888.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/7ed209c1-4992-4eb6-838e-106e5758ccc0.html" target="element"> Virksomhet </a> </td>
+																		<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Virksomhetsintern  API-katalog </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/f84af6b7-b3bd-4afc-9bf8-c6f58d75cfd7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/f84af6b7-b3bd-4afc-9bf8-c6f58d75cfd7.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/29215756-5bfd-4282-a1e9-1216e542b650.html" target="element"> Virksomhetsintern  API-katalog </a> </td>
+																				<td> <a href="../elements/af2c2a12-b09f-4748-a5e2-2d7983ff1423.html" target="element"> Opprett API beskrivelse </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/bafbe521-06c8-4d38-88b0-358bbe54ca9e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bafbe521-06c8-4d38-88b0-358bbe54ca9e.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/0cda4692-073b-439a-8af6-f4e0e2c9023b.html" target="element"> Felles API-katalog </a> </td>
+																		<td> <a href="../elements/51cd1710-02a7-48de-8cf3-2596a7904641.html" target="element"> S&#248;k og oppslag API-beskrivelser </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+																	<tr>
+																		<td> <a href="../elements/9e177193-4db0-48f2-91b1-a0d2a1f466b9.html" target="element"> response </a> </td>
+																		<td> <a href="../elements/9e177193-4db0-48f2-91b1-a0d2a1f466b9.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td>
+																		<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> En konsument applikasjon </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/b058eb2d-5c50-4b9d-a28c-0fe27ae89930.html" target="element"> request </a> </td>
+																		<td> <a href="../elements/b058eb2d-5c50-4b9d-a28c-0fe27ae89930.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																		<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> En konsument applikasjon </a> </td>
+																		<td> <a href="../elements/5c9137ea-f002-4564-b011-499b186453db.html" target="element"> API-et </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/25547449-cc63-4908-975d-90fd3933a50b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/25547449-cc63-4908-975d-90fd3933a50b.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> En konsument applikasjon </a> </td>
+																		<td> <a href="../elements/66a6948a-05b0-438f-96b9-8dc21f0bc0c0.html" target="element"> Et applikasjonsgrensesnitt </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+																	<tr>
+																		<td> <a href="../elements/ee9072c5-1501-4fbd-9a02-91f0f3752f11.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ee9072c5-1501-4fbd-9a02-91f0f3752f11.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/66a6948a-05b0-438f-96b9-8dc21f0bc0c0.html" target="element"> Et applikasjonsgrensesnitt </a> </td>
+																		<td> <a href="../elements/197f7d20-781d-4655-a47f-34da15774508.html" target="element"> En tjeneste </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+																	<tr>
+																		<td> <a href="../elements/2b60a5a1-6c37-492b-9a76-99d4e06dd595.html" target="element"> utvikler </a> </td>
+																		<td> <a href="../elements/2b60a5a1-6c37-492b-9a76-99d4e06dd595.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/98212438-1737-4031-b4b0-8e1f2d952aba.html" target="element"> Tjenesteutvikling </a> </td>
+																		<td> <a href="../elements/f5ae1b90-9218-49cc-b375-9bbc2d384e3d.html" target="element"> En konsument applikasjon </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>

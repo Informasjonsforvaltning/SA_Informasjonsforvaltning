@@ -47,7 +47,8 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
 					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -68,34 +69,60 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/0011ef27-f3ee-4a86-a408-d65c07af23b4.html" target="element"> Kapabilitet </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->	
-												<tr><td> <a href="../elements/7decf38b-b819-492a-b360-40ceb2a8c279.html" target="element"> Tilgangsstyring </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/1df1d66e-0871-4548-b9d3-c74ec1995ca9.html" target="element"> Tilgangskontroll </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/f8fa8e9a-4e1f-4792-948d-b6e4800ff663.html" target="element"> Autentisering </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/37d27ddf-371c-49a8-93a6-e26b4eeb09d4.html" target="element"> Identitietsstyring </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/dd3f42cb-3da6-48f3-9a3a-34529de40823.html" target="element"> Autorisasjon </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/ed2c157f-5ae1-41f4-8bc6-26ff0c29429a.html" target="element"> Scope </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-										
-										<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->	
-												<tr><td> <a href="../elements/f75fa0a0-b31c-452b-b9e4-54d1935a799b.html" target="element"> Dokumenttype </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/d0a0a8db-faba-433d-bed6-4ffe53d620b6.html" target="element"> API-spesifikasjon </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-												<tr><td> <a href="../elements/86f795e9-8146-4101-85e5-35d9aace9810.html" target="element"> API-tilbyder </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
-										
-										<tr><td> <a href="../elements/e5544b46-8410-4679-b9e8-6939a2e8df6a.html" target="element"> allow you to define the API data accessible to your applications. (Auth0) </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/0011ef27-f3ee-4a86-a408-d65c07af23b4.html" target="element"> Kapabilitet </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													<tr><td> <a href="../elements/7decf38b-b819-492a-b360-40ceb2a8c279.html" target="element"> Tilgangsstyring </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/1df1d66e-0871-4548-b9d3-c74ec1995ca9.html" target="element"> Tilgangskontroll </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/f8fa8e9a-4e1f-4792-948d-b6e4800ff663.html" target="element"> Autentisering </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/37d27ddf-371c-49a8-93a6-e26b4eeb09d4.html" target="element"> Identitietsstyring </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/dd3f42cb-3da6-48f3-9a3a-34529de40823.html" target="element"> Autorisasjon </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/ed2c157f-5ae1-41f4-8bc6-26ff0c29429a.html" target="element"> Scope </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													<tr><td> <a href="../elements/f75fa0a0-b31c-452b-b9e4-54d1935a799b.html" target="element"> Dokumenttype </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/d0a0a8db-faba-433d-bed6-4ffe53d620b6.html" target="element"> API-spesifikasjon </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+													<tr><td> <a href="../elements/86f795e9-8146-4101-85e5-35d9aace9810.html" target="element"> API-tilbyder </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
+											
+											<tr><td> <a href="../elements/e5544b46-8410-4679-b9e8-6939a2e8df6a.html" target="element"> allow you to define the API data accessible to your applications. (Auth0) </a> </td><td class="i18n-elementtype-Meaning"></td></tr>
 
-							</tbody>
-						</table>
-					</div>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/056b2753-168c-458f-a6e5-46a60aeb5242.html" target="element">  </a> </td>
+																				<td> <a href="../elements/056b2753-168c-458f-a6e5-46a60aeb5242.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																				<td> <a href="../elements/1df1d66e-0871-4548-b9d3-c74ec1995ca9.html" target="element"> Tilgangskontroll </a> </td>
+																				<td> <a href="../elements/7decf38b-b819-492a-b360-40ceb2a8c279.html" target="element"> Tilgangsstyring </a> </td>
+																			</tr>
+
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
