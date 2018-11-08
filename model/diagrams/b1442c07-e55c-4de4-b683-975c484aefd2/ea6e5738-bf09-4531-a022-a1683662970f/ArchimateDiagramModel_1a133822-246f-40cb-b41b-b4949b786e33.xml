@@ -113,7 +113,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="e699a6a1-6295-4276-9e9c-180ea49c8283"
-        targetConnections="040d29a8-156d-49e8-9ea3-57122de22816 5c92f205-2bf4-4111-a220-36ad7c9e2dde a6ddbff0-fd22-44ae-8915-b333f8de2f86 99d375f6-c7b5-42ba-b5a1-b94a198ad305"
+        targetConnections="040d29a8-156d-49e8-9ea3-57122de22816 5c92f205-2bf4-4111-a220-36ad7c9e2dde a6ddbff0-fd22-44ae-8915-b333f8de2f86"
         type="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -353,15 +353,6 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="2205cdaa-e5b4-4586-804e-edcd95274474"
         targetConnections="c8ce3180-fb6b-492c-8348-95fe32d49b54">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="5f834b8c-1cdb-4972-9b64-206e4368afcc"
-          source="2205cdaa-e5b4-4586-804e-edcd95274474"
-          target="99d375f6-c7b5-42ba-b5a1-b94a198ad305">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_2dae874d-60dd-47ad-9d70-b7946664ccf5.xml#2dae874d-60dd-47ad-9d70-b7946664ccf5"/>
-      </sourceConnections>
       <bounds
           x="768"
           y="384"
@@ -482,16 +473,6 @@
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_59ae2d3f-e23e-425d-84e7-1fd11f2e55ae.xml#59ae2d3f-e23e-425d-84e7-1fd11f2e55ae"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="99d375f6-c7b5-42ba-b5a1-b94a198ad305"
-          targetConnections="5f834b8c-1cdb-4972-9b64-206e4368afcc"
-          source="9f5e821b-7990-4179-86da-de5cba9ecc50"
-          target="e699a6a1-6295-4276-9e9c-180ea49c8283">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_3266f48b-8f39-4ba6-8c73-7627779bbbe1.xml#3266f48b-8f39-4ba6-8c73-7627779bbbe1"/>
       </sourceConnections>
       <bounds
           x="48"
