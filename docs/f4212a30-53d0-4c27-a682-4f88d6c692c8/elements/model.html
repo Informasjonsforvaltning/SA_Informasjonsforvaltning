@@ -275,6 +275,9 @@
 										dataElements.push({id:"79c1c884-d7f8-4d72-a561-859510b338ce", type:"ApplicationComponent", name:decodeURL("Datasettkatalog+Admin+GUI"), description:decodeURL("")});
 										dataElements.push({id:"808ca278-207e-400f-9d7f-941c15969f6b", type:"ApplicationComponent", name:decodeURL("API-katalog+Admin+GUI"), description:decodeURL("")});
 										dataElements.push({id:"4250ebd0-6273-4d54-aac9-a3fe3284fb76", type:"ApplicationComponent", name:decodeURL("Informasjonsmodell-katalog+Admin+GUI"), description:decodeURL("")});
+										dataElements.push({id:"ffb1906b-7c04-451f-a5b4-05510d5b8727", type:"ApplicationComponent", name:decodeURL("Datasettkatalog+GUI"), description:decodeURL("")});
+										dataElements.push({id:"32f6892e-f34d-4d92-bf31-aa4b0493f65c", type:"ApplicationComponent", name:decodeURL("Behandlingsaktivitet+katalog"), description:decodeURL("")});
+										dataElements.push({id:"c50292a7-ea7d-4ac1-9d25-16b04c5cea60", type:"ApplicationComponent", name:decodeURL("Behandlingsaktivet+Admin+GUI"), description:decodeURL("")});
 
 
 										dataElements.push({id:"96c72414-aa3f-45d0-b38f-96f72a43556b", type:"Artifact", name:decodeURL("Database"), description:decodeURL("")});
@@ -2620,6 +2623,11 @@
 										dataRelations.push({id:"55da0502-136c-48b6-8bdf-101aa89b4520", type:"FlowRelationship", name:decodeURL(""), description:decodeURL(""), source:"5957da8f-a207-4522-b72d-f86e5c88ecab", target:"920ddbd3-ff04-4f72-93bd-b3cac35a7058"});
 										dataRelations.push({id:"aab7421d-2429-415a-92a2-edcdd5e65603", type:"FlowRelationship", name:decodeURL(""), description:decodeURL(""), source:"0dd954e0-177b-42f6-9313-a6986624094f", target:"5804acf4-1417-489d-9855-e001d5147fdc"});
 										dataRelations.push({id:"13ab62d3-2ce4-4b17-b182-b7ba52a40793", type:"FlowRelationship", name:decodeURL(""), description:decodeURL(""), source:"78930bd2-9f7b-4a6f-96b6-5717f70645dd", target:"0cda4692-073b-439a-8af6-f4e0e2c9023b"});
+										dataRelations.push({id:"44351c17-f6bf-4e58-9a91-c88b9079fa16", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1a7fb937-9783-4acf-8fb9-0bf10bfa7c72", target:"ffb1906b-7c04-451f-a5b4-05510d5b8727"});
+										dataRelations.push({id:"5e53ed30-7fd0-438d-8a32-05e69609a646", type:"ServingRelationship", name:decodeURL(""), description:decodeURL(""), source:"920ddbd3-ff04-4f72-93bd-b3cac35a7058", target:"ffb1906b-7c04-451f-a5b4-05510d5b8727"});
+										dataRelations.push({id:"55298d79-a821-4adf-8fc7-6b4b89c1267c", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1a7fb937-9783-4acf-8fb9-0bf10bfa7c72", target:"32f6892e-f34d-4d92-bf31-aa4b0493f65c"});
+										dataRelations.push({id:"282261a0-443a-48d9-9ef2-3fe61c691c12", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1a7fb937-9783-4acf-8fb9-0bf10bfa7c72", target:"c50292a7-ea7d-4ac1-9d25-16b04c5cea60"});
+										dataRelations.push({id:"b90308d5-bf74-4b6f-aa66-adb0461c4d39", type:"ServingRelationship", name:decodeURL(""), description:decodeURL(""), source:"32f6892e-f34d-4d92-bf31-aa4b0493f65c", target:"c50292a7-ea7d-4ac1-9d25-16b04c5cea60"});
 
 
 													dataElements.push({id:"0a68fd24-8aa3-4f1f-a4d4-a776991f3ab1", type:"ArchimateDiagramModel", name:decodeURL("Behovsanalyse+interessenter"), description:decodeURL("")});
