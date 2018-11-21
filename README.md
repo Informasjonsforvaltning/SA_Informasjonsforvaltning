@@ -1,4 +1,4 @@
-# SA_Informasjonsforvaltning
+# SA_Informasjonsforvaltning MÅLBILDE
 Segment Architecture (SA) for Informasjonsforvaltning
 
 ## Instruksjoner
