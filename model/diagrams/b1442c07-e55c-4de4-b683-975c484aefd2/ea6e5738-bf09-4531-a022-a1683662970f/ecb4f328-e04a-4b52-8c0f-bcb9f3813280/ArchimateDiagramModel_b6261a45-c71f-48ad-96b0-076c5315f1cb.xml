@@ -21,10 +21,10 @@
         source="1b42fc37-fbb6-4a4f-81e7-060e53464aa9"
         target="69a5f99f-30e2-4924-9006-f9545903ac74">
       <bendpoints
-          startX="192"
-          startY="-21"
-          endX="120"
-          endY="-422"/>
+          startX="216"
+          startY="3"
+          endX="101"
+          endY="-398"/>
       <bendpoints
           startX="192"
           startY="411"
@@ -67,7 +67,7 @@
         source="7a759826-cb78-49c0-88c7-b80a80bef17d"
         target="162a19bc-9c74-48f7-9567-33797df69171"/>
     <bounds
-        x="996"
+        x="1008"
         y="408"
         width="349"
         height="385"/>
@@ -144,7 +144,7 @@
     <bounds
         x="372"
         y="240"
-        width="565"
+        width="613"
         height="97"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -164,9 +164,9 @@
         id="b71f09e4-0d94-4dd4-ae30-7685121d5167"
         targetConnections="2f01a081-587e-43e9-9048-ea37b34b8650 bf6c2346-9f4a-4964-a05b-108ec28ad9b8 84e0d5e5-8355-42aa-9bea-62bc9f110359 2ad4cae7-9d8f-4c4a-b4c4-2d188fda3d96">
       <bounds
-          x="384"
+          x="228"
           y="24"
-          width="140"
+          width="368"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessService"
@@ -223,12 +223,12 @@
       xsi:type="archimate:DiagramModelNote"
       id="419dc4fe-16ab-4c42-9246-5ae65187fc04"
       textAlignment="1"
-      content="Scenario 1.2 - Frittstående åpne data API - En eier av et åpent datasett ønsker å tilby et API til omverdenen mot betaling. &#xA;&#xA;1. En eier av et åpent datasett ønsker å tilby et API til omverdenen, men ønsker å ta betalt for å levere et tjenestenivå. &#xA;2. Datasetteieren etablerer et API for datasettet som tilbys fra en API-tilbyder&#xA;3. API-tilbyder oppretter en API-beskrivelse direkte som en Open API Specification fil&#xA;4. API-beskrivelsen høstes maskinelt av felles API-katalog, og gjøres tilgjeneglig som en søk og oppslagstjeneste&#xA;5. Tjenesteier (applikasjons-/tjenesteutvikler) finner API-et i API-katalogen, og basert på OAS beskrivelsen setter igang utvikling av konsument-applikasjon og kall til API-et&#xA;6. Sluttbruker benytter en tjeneste og konsument-applikasjon, som nå satt i produksjon, kaller API-et. &#xA;">
+      content="Scenario 1.2 - Frittstående åpne data API - En eier av et åpent datasett ønsker å tilby et API til omverdenen mot betaling for å levere et tjenestenivå. &#xA;&#xA;1. Datasetteieren etablerer et API for datasettet som tilbys fra en API-tilbyder&#xA;2. API-tilbyder oppretter en API-beskrivelse direkte som en Open API Specification fil&#xA;3. API-beskrivelsen høstes maskinelt til av felles API-katalog (registrering) hvor tilbyder kan legge til betalingsbetingelser. &#xA;4. API-beskrivelsen gjøres tilgjeneglig som en søk og oppslagstjeneste&#xA;5. Tjenesteier (applikasjons-/tjenesteutvikler/API-konsument) finner API-et i API-katalogen&#xA;6. Basert på API-beskrivelsen 6. setter igang utvikling av konsument-applikasjon og kall til API-et&#xA;7. Sluttbruker benytter en tjeneste og en konsument-applikasjon, som nå satt i produksjon, kaller API-et. &#xA;">
     <bounds
         x="-96"
-        y="-24"
+        y="-48"
         width="829"
-        height="133"/>
+        height="157"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -243,9 +243,9 @@
           href="CompositionRelationship_1dddc555-3407-4f7b-8214-10af35a2e888.xml#1dddc555-3407-4f7b-8214-10af35a2e888"/>
     </sourceConnections>
     <bounds
-        x="744"
+        x="799"
         y="467"
-        width="204"
+        width="191"
         height="289"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -287,8 +287,16 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_9bce8e3a-d71c-4109-8655-93c4d7c45b2c.xml#9bce8e3a-d71c-4109-8655-93c4d7c45b2c"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="05c0bebb-d125-4070-8006-a56fb5638c3e"
+          source="ef3aae9e-a75e-4d9e-bcab-97f0fcddc503"
+          target="af10b3cd-8f54-4bea-9529-310177db5d5c">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_b6942ee6-4117-4771-b10c-60155975b635.xml#b6942ee6-4117-4771-b10c-60155975b635"/>
+      </sourceConnections>
       <bounds
-          x="12"
           y="24"
           width="181"
           height="253"/>
@@ -359,7 +367,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="a582003c-1a88-478b-9c3c-89a07021dc51">
+      id="a582003c-1a88-478b-9c3c-89a07021dc51"
+      targetConnections="a76874f9-6f28-4f56-bf51-7bcdab13e0cd">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="026d619a-c554-4dd4-bd33-16ce97020bf6"
@@ -415,16 +424,16 @@
           href="AccessRelationship_451f0aa8-8faf-4134-99fe-61450dfadf43.xml#451f0aa8-8faf-4134-99fe-61450dfadf43"/>
     </sourceConnections>
     <bounds
-        x="384"
+        x="360"
         y="480"
-        width="319"
+        width="282"
         height="264"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="287646f1-f803-4218-861f-352178429762"
         targetConnections="ee00ece7-0014-4de3-8ddd-df1b80392f36">
       <bounds
-          x="156"
+          x="151"
           y="102"
           width="120"
           height="55"/>
@@ -516,8 +525,8 @@
           href="ServingRelationship_627af481-9a25-4a04-9604-7210872f8aba.xml#627af481-9a25-4a04-9604-7210872f8aba"/>
     </sourceConnections>
     <bounds
-        x="408"
-        y="392"
+        x="372"
+        y="395"
         width="145"
         height="55"/>
     <archimateElement
@@ -538,7 +547,7 @@
           href="ServingRelationship_1c5d6433-6bf7-4232-a22f-dd249b2d047f.xml#1c5d6433-6bf7-4232-a22f-dd249b2d047f"/>
     </sourceConnections>
     <bounds
-        x="577"
+        x="528"
         y="395"
         width="120"
         height="55"/>
@@ -560,7 +569,7 @@
           href="ServingRelationship_d83504bf-b5e2-49d8-99ca-7510a9b6432a.xml#d83504bf-b5e2-49d8-99ca-7510a9b6432a"/>
     </sourceConnections>
     <bounds
-        x="792"
+        x="828"
         y="395"
         width="120"
         height="55"/>
@@ -581,7 +590,7 @@
           href="RealizationRelationship_36e98c1e-0e67-40f8-b631-a8a016a77cfd.xml#36e98c1e-0e67-40f8-b631-a8a016a77cfd"/>
     </sourceConnections>
     <bounds
-        x="204"
+        x="216"
         y="672"
         width="120"
         height="55"/>
@@ -700,5 +709,111 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_98212438-1737-4031-b4b0-8e1f2d952aba.xml#98212438-1737-4031-b4b0-8e1f2d952aba"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="af10b3cd-8f54-4bea-9529-310177db5d5c"
+      targetConnections="05c0bebb-d125-4070-8006-a56fb5638c3e">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="a76874f9-6f28-4f56-bf51-7bcdab13e0cd"
+        source="af10b3cd-8f54-4bea-9529-310177db5d5c"
+        target="a582003c-1a88-478b-9c3c-89a07021dc51">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_d5bff5ae-e6aa-42c8-9f89-4bcbcb7083f5.xml#d5bff5ae-e6aa-42c8-9f89-4bcbcb7083f5"/>
+    </sourceConnections>
+    <bounds
+        x="660"
+        y="600"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_cbcec448-87eb-42df-b217-509ad0e9ddaa.xml#cbcec448-87eb-42df-b217-509ad0e9ddaa"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="c0b11808-4f79-47a7-a2ac-8192cdc01f72"
+      textAlignment="1"
+      content="(2)"
+      borderType="2">
+    <bounds
+        x="779"
+        y="406"
+        width="37"
+        height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1187821e-d65f-4950-86b2-d10349622639"
+      textAlignment="1"
+      content="(3)"
+      borderType="2">
+    <bounds
+        x="660"
+        y="406"
+        width="37"
+        height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="720fa252-4bb7-4bac-93da-7a1d682162a4"
+      textAlignment="1"
+      content="(1)"
+      borderType="2">
+    <bounds
+        x="300"
+        y="195"
+        width="37"
+        height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="9c05fb2f-ef61-4516-8c9d-306c57286f91"
+      textAlignment="1"
+      content="(5)"
+      borderType="2">
+    <bounds
+        x="204"
+        y="195"
+        width="37"
+        height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="17c9be31-be23-4765-9919-a228dfae7186"
+      textAlignment="1"
+      content="(7)"
+      borderType="2">
+    <bounds
+        x="-6"
+        y="195"
+        width="37"
+        height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="9cae6226-f1c6-4a8d-9bae-d05ce65d60be"
+      textAlignment="1"
+      content="(6)"
+      borderType="2">
+    <bounds
+        x="120"
+        y="195"
+        width="37"
+        height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="adb13a3f-c621-4022-81e8-ba430e6ac20c"
+      textAlignment="1"
+      content="(4)"
+      borderType="2">
+    <bounds
+        x="696"
+        y="551"
+        width="37"
+        height="34"/>
   </children>
 </archimate:ArchimateDiagramModel>

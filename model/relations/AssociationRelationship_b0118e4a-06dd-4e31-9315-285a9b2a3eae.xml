@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="levert av"
+    id="b0118e4a-06dd-4e31-9315-285a9b2a3eae">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_a223d968-46a7-4bc8-959f-b03ce5d4f751.xml#a223d968-46a7-4bc8-959f-b03ce5d4f751"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_f5ae1b90-9218-49cc-b375-9bbc2d384e3d.xml#f5ae1b90-9218-49cc-b375-9bbc2d384e3d"/>
+</archimate:AssociationRelationship>
