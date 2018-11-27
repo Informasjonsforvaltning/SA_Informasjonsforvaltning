@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Felles tjenestekatalog"
+    id="3c746476-30cf-4466-ba5a-595529d250ae"
+    documentation="En komponent som tilbyr et API med følgende funksjonalitet:&#xD;&#xA;- Søk&#xD;&#xA;- CRUD&#xD;&#xA;- Høsting&#xD;&#xA;av kataloger og begrep."/>
