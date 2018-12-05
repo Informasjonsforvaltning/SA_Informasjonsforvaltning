@@ -1,0 +1,40 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Kodelister behov"
+    id="9c611a82-202d-4baf-840d-b6881e089f74">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="c436965d-7636-4dcc-8f59-ddd8289a7fb9">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="44828719-8399-4214-bad3-aa3a5db1b08a"
+        source="c436965d-7636-4dcc-8f59-ddd8289a7fb9"
+        target="e65388b6-cd65-4633-aa5c-98b88eefd122">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_e878338e-5daa-4d0b-9015-6d9eca88ab05.xml#e878338e-5daa-4d0b-9015-6d9eca88ab05"/>
+    </sourceConnections>
+    <bounds
+        x="148"
+        y="185"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Stakeholder"
+        href="Stakeholder_684c232c-4c5d-47a6-b3b9-c756562d77fd.xml#684c232c-4c5d-47a6-b3b9-c756562d77fd"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="e65388b6-cd65-4633-aa5c-98b88eefd122"
+      targetConnections="44828719-8399-4214-bad3-aa3a5db1b08a">
+    <bounds
+        x="324"
+        y="185"
+        width="373"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Goal"
+        href="Goal_7a994956-a60f-44f3-89d2-809110bd2f59.xml#7a994956-a60f-44f3-89d2-809110bd2f59"/>
+  </children>
+</archimate:ArchimateDiagramModel>
