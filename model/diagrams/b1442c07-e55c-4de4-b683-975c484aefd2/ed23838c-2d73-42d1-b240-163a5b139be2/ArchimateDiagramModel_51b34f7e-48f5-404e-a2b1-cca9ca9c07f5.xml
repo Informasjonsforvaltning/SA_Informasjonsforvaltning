@@ -115,7 +115,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="ce369ef2-658f-474a-9296-fce19268afe3"
-        targetConnections="7a72d86e-8b73-4399-b55e-c6938ddb545a 097c6fd4-58e3-43a3-890e-232cd13a910b 4864cf2f-b9ea-49a3-8b00-50793e1cd774 86225f46-552a-4f7f-8413-182afc209048 a6f06360-1691-4cbd-95ca-c5c402f18548 fdd69fd8-bf20-4bae-96c3-5071bed23048 4e49c3bc-f6f3-4a38-9cc4-bfacbf963e08"
+        targetConnections="7a72d86e-8b73-4399-b55e-c6938ddb545a 097c6fd4-58e3-43a3-890e-232cd13a910b 4864cf2f-b9ea-49a3-8b00-50793e1cd774 86225f46-552a-4f7f-8413-182afc209048 a6f06360-1691-4cbd-95ca-c5c402f18548 fdd69fd8-bf20-4bae-96c3-5071bed23048 4e49c3bc-f6f3-4a38-9cc4-bfacbf963e08 0b5574ed-3f82-4719-8993-72b463793140"
         type="1">
       <bounds
           x="36"
@@ -361,10 +361,10 @@
         source="c3dfff27-ab51-4662-84c5-b8cd9e60b6e3"
         target="1b4d1305-2c15-4936-983b-9a2245a76c5e"/>
     <bounds
-        x="564"
-        y="-144"
-        width="121"
-        height="73"/>
+        x="552"
+        y="-143"
+        width="229"
+        height="49"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -376,10 +376,10 @@
         source="9b4a166a-ea52-4ae9-804e-c29468260582"
         target="1b4d1305-2c15-4936-983b-9a2245a76c5e"/>
     <bounds
-        x="420"
-        y="-142"
-        width="137"
-        height="59"/>
+        x="372"
+        y="-139"
+        width="169"
+        height="42"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -391,7 +391,7 @@
         source="b724edd9-85dd-4467-bb71-ead151fe6adc"
         target="1b4d1305-2c15-4936-983b-9a2245a76c5e"/>
     <bounds
-        x="276"
+        x="228"
         y="-142"
         width="133"
         height="47"/>
@@ -401,8 +401,8 @@
       id="321c9860-9b88-450f-8b24-fbe30733b282"
       targetConnections="a5301d6e-89c7-44e2-af1b-e66092357743 d2d59d16-d007-415a-9fef-6518265564a2">
     <bounds
-        x="698"
-        y="-60"
+        x="679"
+        y="-78"
         width="120"
         height="55"/>
     <archimateElement
@@ -423,8 +423,8 @@
           href="AggregationRelationship_76084890-ce73-48c3-a496-cc473ece0107.xml#76084890-ce73-48c3-a496-cc473ece0107"/>
     </sourceConnections>
     <bounds
-        x="698"
-        y="-140"
+        x="486"
+        y="-78"
         width="120"
         height="55"/>
     <archimateElement
@@ -441,8 +441,8 @@
         source="cf7f382e-05cf-436d-8a32-7cb20bc502e6"
         target="321c9860-9b88-450f-8b24-fbe30733b282"/>
     <bounds
-        x="840"
-        y="-60"
+        x="835"
+        y="-74"
         width="145"
         height="48"/>
   </children>
@@ -526,5 +526,20 @@
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_724141a0-5dbc-45e2-96a0-2227dfd0a11f.xml#724141a0-5dbc-45e2-96a0-2227dfd0a11f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="67cf6fa5-3988-49a9-a0eb-3f24a968f37a"
+      textAlignment="1"
+      content="Digitaliseringsrundskrivet påpeker at alle offentlige virksomheter skal ha en oversikt over hvilke data de håndterer, hva dataene betyr, hva de kan brukes til, hvilke prosesser de er en del av og hvem som kan bruke dataene (informasjonsforvaltning).">
+    <sourceConnections
+        id="0b5574ed-3f82-4719-8993-72b463793140"
+        source="67cf6fa5-3988-49a9-a0eb-3f24a968f37a"
+        target="ce369ef2-658f-474a-9296-fce19268afe3"/>
+    <bounds
+        x="-120"
+        y="492"
+        width="185"
+        height="115"/>
   </children>
 </archimate:ArchimateDiagramModel>
