@@ -146,9 +146,9 @@
       </sourceConnections>
       <bounds
           x="24"
-          y="720"
+          y="708"
           width="145"
-          height="55"/>
+          height="67"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_ba424890-2b65-4aa9-85dc-a08e7979cb14.xml#ba424890-2b65-4aa9-85dc-a08e7979cb14"/>
@@ -200,15 +200,6 @@
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_876b3b02-382c-4f23-be36-94ebdd8833e6.xml#876b3b02-382c-4f23-be36-94ebdd8833e6"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="936fde4d-b86c-4abf-9895-5426e0ac517b"
-        source="d7992138-b9ca-4f76-9829-6d1b7b985ea1"
-        target="98ad31dd-fedb-4e65-b8cf-2d32f0a9a463">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_44351c17-f6bf-4e58-9a91-c88b9079fa16.xml#44351c17-f6bf-4e58-9a91-c88b9079fa16"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -335,9 +326,9 @@
           target="5ff10b15-d196-4ce8-baa1-fdd5667cce20">
         <bendpoints
             startX="-234"
-            startY="-33"
+            startY="27"
             endX="228"
-            endY="147"/>
+            endY="207"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_e22b91ba-2e76-48f4-ac29-43aa00b5af51.xml#e22b91ba-2e76-48f4-ac29-43aa00b5af51"/>
@@ -381,15 +372,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="518dcec5-b6dc-47cc-9265-f1ef08e6c702"
-          source="ce07411a-0573-4a7c-90f0-3c8a08bf3276"
-          target="98ad31dd-fedb-4e65-b8cf-2d32f0a9a463">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_5e53ed30-7fd0-438d-8a32-05e69609a646.xml#5e53ed30-7fd0-438d-8a32-05e69609a646"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="115a0f8d-a0a3-46bc-adee-2c6bc962cd7a"
           source="ce07411a-0573-4a7c-90f0-3c8a08bf3276"
           target="0a669f20-ff9c-4c3c-a56b-d4edc09e0c6f">
@@ -402,6 +384,11 @@
           id="0baf34c9-328a-4398-9aa9-00733a1a58f6"
           source="ce07411a-0573-4a7c-90f0-3c8a08bf3276"
           target="5ff10b15-d196-4ce8-baa1-fdd5667cce20">
+        <bendpoints
+            startX="-246"
+            startY="27"
+            endX="216"
+            endY="63"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_7c2275a7-d8ca-42dd-93b5-7067d8ecd691.xml#7c2275a7-d8ca-42dd-93b5-7067d8ecd691"/>
@@ -543,10 +530,10 @@
           source="966d39c3-0ab4-4753-9ba5-c56f1756e9cd"
           target="5ff10b15-d196-4ce8-baa1-fdd5667cce20">
         <bendpoints
-            startX="-251"
-            startY="-21"
+            startX="-234"
+            startY="15"
             endX="228"
-            endY="252"/>
+            endY="327"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_c0e591e2-2b8c-44d6-8dbb-504e45f04721.xml#c0e591e2-2b8c-44d6-8dbb-504e45f04721"/>
@@ -592,7 +579,7 @@
           x="336"
           y="48"
           width="157"
-          height="55"/>
+          height="49"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_dcc50ceb-1ea5-47cc-a595-c65675870e07.xml#dcc50ceb-1ea5-47cc-a595-c65675870e07"/>
@@ -604,9 +591,9 @@
         type="1">
       <bounds
           x="336"
-          y="456"
+          y="396"
           width="157"
-          height="43"/>
+          height="49"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_79c1c884-d7f8-4d72-a561-859510b338ce.xml#79c1c884-d7f8-4d72-a561-859510b338ce"/>
@@ -618,7 +605,7 @@
         type="1">
       <bounds
           x="336"
-          y="561"
+          y="540"
           width="157"
           height="49"/>
       <archimateElement
@@ -632,7 +619,7 @@
         type="1">
       <bounds
           x="336"
-          y="708"
+          y="672"
           width="157"
           height="49"/>
       <archimateElement
@@ -641,28 +628,14 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="98ad31dd-fedb-4e65-b8cf-2d32f0a9a463"
-        targetConnections="936fde4d-b86c-4abf-9895-5426e0ac517b 518dcec5-b6dc-47cc-9265-f1ef08e6c702"
-        type="1">
-      <bounds
-          x="336"
-          y="396"
-          width="157"
-          height="37"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationComponent"
-          href="ApplicationComponent_ffb1906b-7c04-451f-a5b4-05510d5b8727.xml#ffb1906b-7c04-451f-a5b4-05510d5b8727"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="91327adf-49c3-4b14-b765-539f4a32d4c3"
         targetConnections="fe4a58f9-8abe-4357-905b-17ffa2c64c0f 987202a4-e792-413b-90b7-e59c6a0aff7f"
         type="1">
       <bounds
           x="336"
-          y="300"
+          y="288"
           width="157"
-          height="41"/>
+          height="49"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_c50292a7-ea7d-4ac1-9d25-16b04c5cea60.xml#c50292a7-ea7d-4ac1-9d25-16b04c5cea60"/>
@@ -697,9 +670,9 @@
         type="1">
       <bounds
           x="336"
-          y="186"
+          y="168"
           width="157"
-          height="55"/>
+          height="49"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_739fb032-1854-4cd4-8095-0a7027c70407.xml#739fb032-1854-4cd4-8095-0a7027c70407"/>

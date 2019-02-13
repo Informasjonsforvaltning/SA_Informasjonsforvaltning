@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Datasettkatalog Admin GUI"
+    name="Datasettkatalog GUI"
     id="79c1c884-d7f8-4d72-a561-859510b338ce"
-    documentation="Et administrativt GUI der virksomheter administrerer sin datasettkatalog og høsteløsning fra eventuell virksomhetsintern datasettkatalog"/>
+    documentation="Et rollebasert GUI der virksomheter har tilgang til og administrerer sin datasettkatalog og høsteløsning fra eventuell virksomhetsintern datasettkatalog"/>

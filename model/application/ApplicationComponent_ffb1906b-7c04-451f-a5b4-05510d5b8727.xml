@@ -1,5 +1,0 @@
-<archimate:ApplicationComponent
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Datasettkatalog GUI"
-    id="ffb1906b-7c04-451f-a5b4-05510d5b8727"
-    documentation="Gir innsyn i virksomhetens totale sett av datasett, også de som ikke publisereres til portal.&#xD;&#xA;Krever at bruker har tilgang."/>
