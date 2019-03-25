@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Stewardship"
+    id="f3ae60ec-5e2f-45c7-b00c-c551aeee6d1e">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_68a4a8fd-f8f8-4e86-8cb3-ebe44a12da7f.xml#68a4a8fd-f8f8-4e86-8cb3-ebe44a12da7f"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_84966839-037f-4fa6-9c80-f27eed017047.xml#84966839-037f-4fa6-9c80-f27eed017047"/>
+</archimate:FlowRelationship>

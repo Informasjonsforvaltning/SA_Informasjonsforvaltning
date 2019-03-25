@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Diffusion"
+    id="e4d9d1ad-c1b1-4d07-bfda-f26374e03796">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_3d21d925-d298-46b8-b553-5f236df7630d.xml#3d21d925-d298-46b8-b553-5f236df7630d"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_2fb6e7cd-1f3d-4c61-a7f0-1ccaa8138f1a.xml#2fb6e7cd-1f3d-4c61-a7f0-1ccaa8138f1a"/>
+</archimate:FlowRelationship>

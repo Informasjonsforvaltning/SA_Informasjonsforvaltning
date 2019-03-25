@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Risk Management"
+    id="7985f83b-04d9-43fa-9132-7f6225eeda99">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_40c9eeda-7c64-4ada-afd7-35fbf6065fe1.xml#40c9eeda-7c64-4ada-afd7-35fbf6065fe1"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_2fb6e7cd-1f3d-4c61-a7f0-1ccaa8138f1a.xml#2fb6e7cd-1f3d-4c61-a7f0-1ccaa8138f1a"/>
+</archimate:FlowRelationship>

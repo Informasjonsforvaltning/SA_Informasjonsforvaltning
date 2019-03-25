@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Monitoring"
+    id="6b8c28db-746e-4dc4-a9cc-4df29c01b59b">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_01e456f3-1070-4e1f-a313-f701bbd679d7.xml#01e456f3-1070-4e1f-a313-f701bbd679d7"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_962a38ed-43db-4c44-8626-f3c5e1dd2874.xml#962a38ed-43db-4c44-8626-f3c5e1dd2874"/>
+</archimate:FlowRelationship>

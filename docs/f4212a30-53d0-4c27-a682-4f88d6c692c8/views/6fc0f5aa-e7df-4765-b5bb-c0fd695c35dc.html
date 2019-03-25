@@ -19,31 +19,44 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Standardiserte API/Tjenestetype</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/6fc0f5aa-e7df-4765-b5bb-c0fd695c35dc.png" alt="Standardiserte API/Tjenestetype" usemap="#6fc0f5aa-e7df-4765-b5bb-c0fd695c35dcmap">
-			<map name="6fc0f5aa-e7df-4765-b5bb-c0fd695c35dcmap">
-						<area shape="rect" coords="178,310,298,365" href="../elements/b353e4a0-3911-4943-a024-97e2802a6d93.html"  target="element">
-						<area shape="rect" coords="322,310,442,365" href="../elements/6c1b4db2-07d9-43ad-863e-7aa2f73a5274.html"  target="element">
-						<area shape="rect" coords="178,214,298,269" href="../elements/82d01e5a-839c-43e9-b16f-6115cfab31b6.html"  target="element">
-						<area shape="rect" coords="322,214,442,269" href="../elements/b8348efd-fd43-4629-ae53-c2037ce1dded.html"  target="element">
-						<area shape="rect" coords="259,106,379,161" href="../elements/d0706862-d45c-47cd-8249-522819a05603.html"  target="element">
-						<area shape="rect" coords="487,214,607,269" href="../elements/cc43f5fc-3f0a-4026-b4c4-74e8323b4ac3.html"  target="element">
-						<area shape="rect" coords="10,214,130,269" href="../elements/e23ac5b6-1d65-4e61-9b19-273e8508fafb.html"  target="element">
-						<area shape="rect" coords="259,10,379,65" href="../elements/70476dae-e635-4d8c-8d92-33cd344be322.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Standardiserte API/Tjenestetype</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/6fc0f5aa-e7df-4765-b5bb-c0fd695c35dc.png" alt="Standardiserte API/Tjenestetype" usemap="#6fc0f5aa-e7df-4765-b5bb-c0fd695c35dcmap"/>
+			   <map name="6fc0f5aa-e7df-4765-b5bb-c0fd695c35dcmap">
+				  		<area shape="rect" coords="178,310,298,365" href="../elements/b353e4a0-3911-4943-a024-97e2802a6d93.html"  target="element">
+				  		<area shape="rect" coords="322,310,442,365" href="../elements/6c1b4db2-07d9-43ad-863e-7aa2f73a5274.html"  target="element">
+				  		<area shape="rect" coords="178,214,298,269" href="../elements/82d01e5a-839c-43e9-b16f-6115cfab31b6.html"  target="element">
+				  		<area shape="rect" coords="322,214,442,269" href="../elements/b8348efd-fd43-4629-ae53-c2037ce1dded.html"  target="element">
+				  		<area shape="rect" coords="259,106,379,161" href="../elements/d0706862-d45c-47cd-8249-522819a05603.html"  target="element">
+				  		<area shape="rect" coords="487,214,607,269" href="../elements/cc43f5fc-3f0a-4026-b4c4-74e8323b4ac3.html"  target="element">
+				  		<area shape="rect" coords="10,214,130,269" href="../elements/e23ac5b6-1d65-4e61-9b19-273e8508fafb.html"  target="element">
+				  		<area shape="rect" coords="259,10,379,65" href="../elements/70476dae-e635-4d8c-8d92-33cd344be322.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -73,14 +86,46 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/b353e4a0-3911-4943-a024-97e2802a6d93.html" target="element"> Applikasjon 1 </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/6c1b4db2-07d9-43ad-863e-7aa2f73a5274.html" target="element"> Applikasjon 2 </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/82d01e5a-839c-43e9-b16f-6115cfab31b6.html" target="element"> API 1 </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-											<tr><td> <a href="../elements/b8348efd-fd43-4629-ae53-c2037ce1dded.html" target="element"> API 2 </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-											<tr><td> <a href="../elements/d0706862-d45c-47cd-8249-522819a05603.html" target="element"> Standardisert API [ABSTRACT] </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-											<tr><td> <a href="../elements/cc43f5fc-3f0a-4026-b4c4-74e8323b4ac3.html" target="element"> API beskrivelse 2 </a> </td><td class="i18n-elementtype-Representation"></td></tr>
-											<tr><td> <a href="../elements/e23ac5b6-1d65-4e61-9b19-273e8508fafb.html" target="element"> API beskrivelse 1 </a> </td><td class="i18n-elementtype-Representation"></td></tr>
-											<tr><td> <a href="../elements/70476dae-e635-4d8c-8d92-33cd344be322.html" target="element"> Standard xyz </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/b353e4a0-3911-4943-a024-97e2802a6d93.html" target="element"> Applikasjon 1 </a> </td>
+											    <td> <a href="../elements/b353e4a0-3911-4943-a024-97e2802a6d93.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6c1b4db2-07d9-43ad-863e-7aa2f73a5274.html" target="element"> Applikasjon 2 </a> </td>
+											    <td> <a href="../elements/6c1b4db2-07d9-43ad-863e-7aa2f73a5274.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/82d01e5a-839c-43e9-b16f-6115cfab31b6.html" target="element"> API 1 </a> </td>
+											    <td> <a href="../elements/82d01e5a-839c-43e9-b16f-6115cfab31b6.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b8348efd-fd43-4629-ae53-c2037ce1dded.html" target="element"> API 2 </a> </td>
+											    <td> <a href="../elements/b8348efd-fd43-4629-ae53-c2037ce1dded.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/d0706862-d45c-47cd-8249-522819a05603.html" target="element"> Standardisert API [ABSTRACT] </a> </td>
+											    <td> <a href="../elements/d0706862-d45c-47cd-8249-522819a05603.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/cc43f5fc-3f0a-4026-b4c4-74e8323b4ac3.html" target="element"> API beskrivelse 2 </a> </td>
+											    <td> <a href="../elements/cc43f5fc-3f0a-4026-b4c4-74e8323b4ac3.html" target="element" class="i18n-elementtype-Representation"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e23ac5b6-1d65-4e61-9b19-273e8508fafb.html" target="element"> API beskrivelse 1 </a> </td>
+											    <td> <a href="../elements/e23ac5b6-1d65-4e61-9b19-273e8508fafb.html" target="element" class="i18n-elementtype-Representation"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/70476dae-e635-4d8c-8d92-33cd344be322.html" target="element"> Standard xyz </a> </td>
+											    <td> <a href="../elements/70476dae-e635-4d8c-8d92-33cd344be322.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>

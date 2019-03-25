@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Conformance"
+    id="d9644b61-72e0-4283-85ff-149c8c817012">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_2fb6e7cd-1f3d-4c61-a7f0-1ccaa8138f1a.xml#2fb6e7cd-1f3d-4c61-a7f0-1ccaa8138f1a"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_3d21d925-d298-46b8-b553-5f236df7630d.xml#3d21d925-d298-46b8-b553-5f236df7630d"/>
+</archimate:FlowRelationship>
