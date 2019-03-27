@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>[EPOS] Grunnleggende begrepsforvaltning</title>
+	<title></title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -22,11 +22,10 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>[EPOS] Grunnleggende begrepsforvaltning</b>
-
+               <b class="i18n-elementtype-AssociationRelationship"></b>
             <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+			   (<span class="i18n-elementtype-AssociationRelationship"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-AssociationRelationship" target="hint"></a>
 		</div>
 
 		<div class="panel-body root-panel-body">
@@ -41,15 +40,21 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
-						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
-						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
-                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">https://github.com/Informasjonsforvaltning/behov/issues/176</textarea>
+							<br>
+							<b class="i18n-relation-source"></b>
+								<a href="../elements/ce004cfc-f0f1-4de2-bdd7-4e01605a6265.html" target="element">
+									SKOS-AP-NO
+								</a> <br>
+							<b class="i18n-relation-target"></b>
+								<a href="../elements/958b9581-6e51-4b66-9290-a4e476a1972f.html" target="element">
+								</a> <br>
+							<br>
+						<textarea id="docsrc" style="display:none"></textarea>
 						<div id="doctgt" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
@@ -64,46 +69,6 @@
 							</tbody>
 						</table>
 					</div>
-						<div role="tabpanel" class="tab-pane" id="elements">
-							<table class="table table-striped table-hover table-condensed">
-								<thead>
-									<tr>
-										<th class="i18n-name"></th>
-										<th class="i18n-type"></th>
-									</tr>
-								</thead>
-								<tbody>
-											<tr>
-											    <td> <a href="../elements/ce004cfc-f0f1-4de2-bdd7-4e01605a6265.html" target="element"> SKOS-AP-NO </a> </td>
-											    <td> <a href="../elements/ce004cfc-f0f1-4de2-bdd7-4e01605a6265.html" target="element" class="i18n-elementtype-Representation"> </a> </td>
-											</tr>
-
-
-								</tbody>
-							</table>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="relationships">
-							<table class="table table-striped table-hover table-condensed">
-								<thead>
-									<tr>
-										<th class="i18n-name"></th>
-										<th class="i18n-type"></th>
-										<th class="i18n-source"></th>
-										<th class="i18n-target"></th>
-									</tr>
-								</thead>
-								<tbody>
-																	<tr>
-																		<td> <a href="../elements/034dddd3-9bff-4114-a9bd-359195bf28b0.html" target="element">  </a> </td>
-																		<td> <a href="../elements/034dddd3-9bff-4114-a9bd-359195bf28b0.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
-																		<td> <a href="../elements/ce004cfc-f0f1-4de2-bdd7-4e01605a6265.html" target="element"> SKOS-AP-NO </a> </td>
-																		<td> <a href="../elements/958b9581-6e51-4b66-9290-a4e476a1972f.html" target="element">  </a> </td>
-																	</tr>
-
-
-								</tbody>
-							</table>
-						</div>
 			  </div>
 			</div>
 		</div>
