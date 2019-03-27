@@ -1,11 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Harvesting"
     id="34453ba9-f658-487e-bec1-8d39e3eedad5">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_6bb5c3eb-5117-4145-b211-67fb6fae8438.xml#6bb5c3eb-5117-4145-b211-67fb6fae8438"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_5804acf4-1417-489d-9855-e001d5147fdc.xml#5804acf4-1417-489d-9855-e001d5147fdc"/>
+      href="ApplicationComponent_fe411ccb-ea57-41f5-8f27-119bfc7f8c20.xml#fe411ccb-ea57-41f5-8f27-119bfc7f8c20"/>
 </archimate:FlowRelationship>
