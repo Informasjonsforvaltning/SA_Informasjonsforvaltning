@@ -19,29 +19,42 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>Regnskapsregisteret Applications</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/307b9dcf-4a6d-4d73-8f27-73aea88b6dbe.png" alt="Regnskapsregisteret Applications" usemap="#307b9dcf-4a6d-4d73-8f27-73aea88b6dbemap">
-			<map name="307b9dcf-4a6d-4d73-8f27-73aea88b6dbemap">
-						<area shape="rect" coords="258,179,378,234" href="../elements/6d04ff34-1194-4635-8d0e-376533f7b2b3.html"  target="element">
-						<area shape="rect" coords="82,179,226,234" href="../elements/cae15976-c93a-4e6a-8571-fba8dc48ec91.html"  target="element">
-						<area shape="rect" coords="490,179,610,234" href="../elements/7dad8693-b46c-4233-9bb3-2b54e6879a37.html"  target="element">
-						<area shape="rect" coords="10,94,130,149" href="../elements/a812c467-214e-4d34-96ab-06146ae173bf.html"  target="element">
-						<area shape="rect" coords="514,322,634,377" href="../elements/29ff6cad-5fe0-49aa-b09f-bf4888b86775.html"  target="element">
-						<area shape="rect" coords="10,10,130,65" href="../elements/66a9f01c-0ada-43f9-a9c8-9ea28d627de5.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Regnskapsregisteret Applications</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/307b9dcf-4a6d-4d73-8f27-73aea88b6dbe.png" alt="Regnskapsregisteret Applications" usemap="#307b9dcf-4a6d-4d73-8f27-73aea88b6dbemap"/>
+			   <map name="307b9dcf-4a6d-4d73-8f27-73aea88b6dbemap">
+				  		<area shape="rect" coords="258,179,378,234" href="../elements/6d04ff34-1194-4635-8d0e-376533f7b2b3.html"  target="element">
+				  		<area shape="rect" coords="82,179,226,234" href="../elements/cae15976-c93a-4e6a-8571-fba8dc48ec91.html"  target="element">
+				  		<area shape="rect" coords="490,179,610,234" href="../elements/7dad8693-b46c-4233-9bb3-2b54e6879a37.html"  target="element">
+				  		<area shape="rect" coords="10,94,130,149" href="../elements/a812c467-214e-4d34-96ab-06146ae173bf.html"  target="element">
+				  		<area shape="rect" coords="514,322,634,377" href="../elements/29ff6cad-5fe0-49aa-b09f-bf4888b86775.html"  target="element">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/66a9f01c-0ada-43f9-a9c8-9ea28d627de5.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
 						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
 						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -71,12 +84,36 @@
 									</tr>
 								</thead>
 								<tbody>
-											<tr><td> <a href="../elements/6d04ff34-1194-4635-8d0e-376533f7b2b3.html" target="element"> Regnskapsdata publiserer </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
-											<tr><td> <a href="../elements/cae15976-c93a-4e6a-8571-fba8dc48ec91.html" target="element"> &#197;pent Regnskapsdata API </a> </td><td class="i18n-elementtype-ApplicationInterface"></td></tr>
-											<tr><td> <a href="../elements/7dad8693-b46c-4233-9bb3-2b54e6879a37.html" target="element"> Regnskap </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
-											<tr><td> <a href="../elements/a812c467-214e-4d34-96ab-06146ae173bf.html" target="element"> Representation </a> </td><td class="i18n-elementtype-Representation"></td></tr>
-											<tr><td> <a href="../elements/29ff6cad-5fe0-49aa-b09f-bf4888b86775.html" target="element"> Fil </a> </td><td class="i18n-elementtype-Artifact"></td></tr>
-											<tr><td> <a href="../elements/66a9f01c-0ada-43f9-a9c8-9ea28d627de5.html" target="element"> Norsk Standard Kontoplan </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											<tr>
+											    <td> <a href="../elements/6d04ff34-1194-4635-8d0e-376533f7b2b3.html" target="element"> Regnskapsdata publiserer </a> </td>
+											    <td> <a href="../elements/6d04ff34-1194-4635-8d0e-376533f7b2b3.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/cae15976-c93a-4e6a-8571-fba8dc48ec91.html" target="element"> &#197;pent Regnskapsdata API </a> </td>
+											    <td> <a href="../elements/cae15976-c93a-4e6a-8571-fba8dc48ec91.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7dad8693-b46c-4233-9bb3-2b54e6879a37.html" target="element"> Regnskap </a> </td>
+											    <td> <a href="../elements/7dad8693-b46c-4233-9bb3-2b54e6879a37.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/a812c467-214e-4d34-96ab-06146ae173bf.html" target="element"> Representation </a> </td>
+											    <td> <a href="../elements/a812c467-214e-4d34-96ab-06146ae173bf.html" target="element" class="i18n-elementtype-Representation"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/29ff6cad-5fe0-49aa-b09f-bf4888b86775.html" target="element"> Fil </a> </td>
+											    <td> <a href="../elements/29ff6cad-5fe0-49aa-b09f-bf4888b86775.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/66a9f01c-0ada-43f9-a9c8-9ea28d627de5.html" target="element"> Norsk Standard Kontoplan </a> </td>
+											    <td> <a href="../elements/66a9f01c-0ada-43f9-a9c8-9ea28d627de5.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
 
 								</tbody>
 							</table>
