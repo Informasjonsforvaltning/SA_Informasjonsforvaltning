@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Begrepshøsting"
-    id="8012cdbd-bc55-4d76-8473-9da4bd20317a"/>
+    id="8012cdbd-bc55-4d76-8473-9da4bd20317a"
+    documentation="En tjeneste som høster fra ulike begrepskataloger og gjør begrepene tilgjengelige for Felles Datakatalog Portal.&#xA;Kildekode: https://github.com/Informasjonsforvaltning/fdk/tree/develop/applications/concept-cat"/>

@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="GUI API-høsting"
-    id="0c905e82-27b3-4d08-9503-c50ed4c369c4"/>
+    id="0c905e82-27b3-4d08-9503-c50ed4c369c4"
+    documentation="Et adminstrativt GUI mot API-høsting der høsting av ulike API-kataloger administreres."/>

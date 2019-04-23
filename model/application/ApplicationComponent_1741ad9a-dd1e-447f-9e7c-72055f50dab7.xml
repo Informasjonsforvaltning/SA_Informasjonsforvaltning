@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informasjonsmodell-katalog"
     id="1741ad9a-dd1e-447f-9e7c-72055f50dab7"
-    documentation="En komponent som tilbyr et API med følgende funksjonalitet:&#xD;&#xA;- Søk&#xD;&#xA;- CRUD&#xD;&#xA;- Høsting&#xD;&#xA;av kataloger og informasjonsmodeller."/>
+    documentation="En komponent som tilbyr et API med følgende funksjonalitet:&#xD;&#xA;- Søk&#xD;&#xA;- CRUD&#xD;&#xA;av kataloger og informasjonsmodeller."/>
