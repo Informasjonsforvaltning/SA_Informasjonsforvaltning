@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Tilgangsstyring"
-    id="0370791e-b34a-4994-8147-98ffb6e394cd"/>
+    id="0370791e-b34a-4994-8147-98ffb6e394cd"
+    documentation="En teknisk tjeneste som tilbyr autentisering og autorisasjon. Er ein &quot;proxy&quot; for andre (feks ID-porten, Altinn) men tilbyr også enkel bruker-  og rolle-adminstrasjon."/>

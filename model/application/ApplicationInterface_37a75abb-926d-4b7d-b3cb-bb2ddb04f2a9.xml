@@ -1,0 +1,5 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="admin"
+    id="37a75abb-926d-4b7d-b3cb-bb2ddb04f2a9"
+    documentation="Admininister&#xA;- users&#xA;- roles&#xA;- scopes"/>

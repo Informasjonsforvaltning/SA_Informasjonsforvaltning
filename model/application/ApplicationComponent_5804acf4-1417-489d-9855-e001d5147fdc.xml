@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Begrepskatalog"
+    name="Begrepskatalog API"
     id="5804acf4-1417-489d-9855-e001d5147fdc"
     documentation="En komponent som tilbyr et API med følgende funksjonalitet:&#xD;&#xA;- Søk&#xD;&#xA;- CRUD&#xD;&#xA;av kataloger og begrep."/>
