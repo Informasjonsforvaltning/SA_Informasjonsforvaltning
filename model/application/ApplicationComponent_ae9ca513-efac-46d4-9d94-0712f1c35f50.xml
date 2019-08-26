@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="API-høsting"
+    name="FDK-høsting"
     id="ae9ca513-efac-46d4-9d94-0712f1c35f50"
-    documentation="En tjeneste som høster fra ulike API-kataloger og gjør API-ene tilgjengelige for Felles Datakatalog Portal.&#xA;Kildekode: https://github.com/Informasjonsforvaltning/fdk/tree/develop/applications/api-cat"/>
+    documentation="En tjeneste som lagrer ulike endepunkter som skal høstes. &#xA;"/>
