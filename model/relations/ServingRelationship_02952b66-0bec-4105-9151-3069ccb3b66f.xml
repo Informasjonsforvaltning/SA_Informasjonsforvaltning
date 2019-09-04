@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="GET /endoints?type=API"
+    id="02952b66-0bec-4105-9151-3069ccb3b66f">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_ae9ca513-efac-46d4-9d94-0712f1c35f50.xml#ae9ca513-efac-46d4-9d94-0712f1c35f50"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_c9d4f791-b2c7-4b66-86e9-142f5df46f44.xml#c9d4f791-b2c7-4b66-86e9-142f5df46f44"/>
+</archimate:ServingRelationship>

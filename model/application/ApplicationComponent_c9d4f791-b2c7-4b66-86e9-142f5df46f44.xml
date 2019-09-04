@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="FDK API-høster"
     id="c9d4f791-b2c7-4b66-86e9-142f5df46f44"
-    documentation="I dag er dette &quot;api-cat&quot;. En tjeneste som høster fra ulike API-kataloger og gjør API-ene tilgjengelige for Felles Datakatalog Portal.&#xA;Kildekode: https://github.com/Informasjonsforvaltning/fdk/tree/develop/applications/api-cat"/>
+    documentation="En tjeneste som høster fra ulike API-kataloger og gjør API-ene tilgjengelige for Felles Datakatalog Portal.&#xA;Kildekode: https://github.com/Informasjonsforvaltning/fdk/tree/develop/applications/api-cat&#xA;I dag er dette &quot;api-cat&quot;. "/>

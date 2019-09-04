@@ -1,6 +1,7 @@
 <archimate:ServingRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="GET /catalogs"
     id="cff9e705-fba9-42c5-83cd-d68e221fb902">
   <source
       xsi:type="archimate:ApplicationInterface"

@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Informasjonsmodell-høsting"
+    name="FDK Informasjonsmodell-høsting"
     id="98740920-19c9-45c6-af42-29d01efc4b10"
     documentation="En tjeneste som høster fra ulike Informasjonsmodell-kataloger og gjør informasjonsmodellene tilgjengelige for Felles Datakatalog Portal.&#xA;Kildekode: https://github.com/Informasjonsforvaltning/fdk/tree/develop/applications/informationmodel-cat"/>

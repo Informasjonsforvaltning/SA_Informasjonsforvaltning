@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Datasetthøsting"
+    name="FDK Datasetthøsting"
     id="0bd6eaf9-6b3d-4615-8bd1-39e3d37cc68a"
     documentation="En tjeneste som høster fra ulike datasettkataloger og gjør datsettkatalogene tilgjengelige for Felles Datakatalog Portal.&#xA;Kildekode: https://github.com/Informasjonsforvaltning/fdk/tree/develop/applications/harvester-api"/>
