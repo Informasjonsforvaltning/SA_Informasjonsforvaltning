@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="registrert i"
+    id="f4777fca-5ae5-4159-8842-3bf39e0fa27f">
+  <source
+      xsi:type="archimate:ApplicationInterface"
+      href="ApplicationInterface_2fcd3fc2-e80b-4c06-a91c-e8b9efcbdabf.xml#2fcd3fc2-e80b-4c06-a91c-e8b9efcbdabf"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_ae9ca513-efac-46d4-9d94-0712f1c35f50.xml#ae9ca513-efac-46d4-9d94-0712f1c35f50"/>
+</archimate:AssociationRelationship>
