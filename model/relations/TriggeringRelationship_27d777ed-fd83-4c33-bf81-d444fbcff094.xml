@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="lenke til"
+    id="27d777ed-fd83-4c33-bf81-d444fbcff094">
+  <source
+      xsi:type="archimate:ApplicationInterface"
+      href="ApplicationInterface_71c37397-b69a-4fab-988b-76a6a03db6a0.xml#71c37397-b69a-4fab-988b-76a6a03db6a0"/>
+  <target
+      xsi:type="archimate:ApplicationInterface"
+      href="ApplicationInterface_95a19183-90d4-41ba-9b4b-ad03aea8588a.xml#95a19183-90d4-41ba-9b4b-ad03aea8588a"/>
+</archimate:TriggeringRelationship>
