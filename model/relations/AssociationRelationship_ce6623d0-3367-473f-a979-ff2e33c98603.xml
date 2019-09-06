@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="linked_to"
+    id="ce6623d0-3367-473f-a979-ff2e33c98603"
+    documentation="Linked by organization number">
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_949c85f4-c5a7-4063-9232-3cc02a0b5bc1.xml#949c85f4-c5a7-4063-9232-3cc02a0b5bc1"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_46b1ffb8-68b0-4c17-adca-69cb7f3b8e36.xml#46b1ffb8-68b0-4c17-adca-69cb7f3b8e36"/>
+</archimate:AssociationRelationship>

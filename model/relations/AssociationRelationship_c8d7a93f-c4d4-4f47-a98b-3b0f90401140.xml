@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="linked_to"
+    id="c8d7a93f-c4d4-4f47-a98b-3b0f90401140"
+    documentation="Linked by &quot;kommune&quot; number">
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_949c85f4-c5a7-4063-9232-3cc02a0b5bc1.xml#949c85f4-c5a7-4063-9232-3cc02a0b5bc1"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_f3ca8e4c-bbdc-45a2-8053-30ed549349de.xml#f3ca8e4c-bbdc-45a2-8053-30ed549349de"/>
+</archimate:AssociationRelationship>
