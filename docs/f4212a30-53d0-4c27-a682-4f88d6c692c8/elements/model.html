@@ -704,6 +704,8 @@
 										dataElements.push({id:"ca606fce-22d4-4dc0-a1f6-987ffbddb289", type:"ApplicationComponent", name:decodeURL("Frittst%C3%A5ende+API-beskrivelser"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"3bd6c34b-aa5c-4764-83aa-4cefe30563c1", contentid:"71c37397-b69a-4fab-988b-76a6a03db6a0", contenttype:"ApplicationInterface"});
 										dataElements.push({id:"71c37397-b69a-4fab-988b-76a6a03db6a0", type:"ApplicationInterface", name:decodeURL("Enhetsregisteret+API"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"3bd6c34b-aa5c-4764-83aa-4cefe30563c1", contentid:"4122f745-e6bd-4ed0-91d4-2a838b5c8db7", contenttype:"ApplicationService"});
+										dataElements.push({id:"4122f745-e6bd-4ed0-91d4-2a838b5c8db7", type:"ApplicationService", name:decodeURL("Cron+service"), documentation:decodeURL("Service+that+publish+events+based+on+date-time+regularily+event.+%28Start+batch-jobs%29")});
 
 								dataFoldersContent.push({folderid:"f4212a30-53d0-4c27-a682-4f88d6c692c8", contentid:"999e8475-69aa-44f0-bc49-24964f4133ac", contenttype:"Folder"});
 								dataFolders.push({id:"999e8475-69aa-44f0-bc49-24964f4133ac", type:"Folder", name:decodeURL("Technology+%26+Physical"), documentation:decodeURL("")});
@@ -5957,6 +5959,14 @@
 										dataRelationships.push({id:"c8d7a93f-c4d4-4f47-a98b-3b0f90401140", type:"AssociationRelationship", name:decodeURL("linked_to"), documentation:decodeURL("Linked+by+%22kommune%22+number"), sourceid:"949c85f4-c5a7-4063-9232-3cc02a0b5bc1", targetid:"f3ca8e4c-bbdc-45a2-8053-30ed549349de"});
 									dataFoldersContent.push({folderid:"d7e9ea52-a97f-4167-9f18-60bd5702f1c7", contentid:"ce6623d0-3367-473f-a979-ff2e33c98603", contenttype:"AssociationRelationship"});
 										dataRelationships.push({id:"ce6623d0-3367-473f-a979-ff2e33c98603", type:"AssociationRelationship", name:decodeURL("linked_to"), documentation:decodeURL("Linked+by+organization+number"), sourceid:"949c85f4-c5a7-4063-9232-3cc02a0b5bc1", targetid:"46b1ffb8-68b0-4c17-adca-69cb7f3b8e36"});
+									dataFoldersContent.push({folderid:"d7e9ea52-a97f-4167-9f18-60bd5702f1c7", contentid:"90e7ee9f-e66c-4145-aeea-e5b05c669d22", contenttype:"CompositionRelationship"});
+										dataRelationships.push({id:"90e7ee9f-e66c-4145-aeea-e5b05c669d22", type:"CompositionRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"d046e123-55cf-4a05-8268-f210208b4336", targetid:"808ca278-207e-400f-9d7f-941c15969f6b"});
+									dataFoldersContent.push({folderid:"d7e9ea52-a97f-4167-9f18-60bd5702f1c7", contentid:"0f34d32f-ccdf-4c31-9fbe-3460b88e6d01", contenttype:"FlowRelationship"});
+										dataRelationships.push({id:"0f34d32f-ccdf-4c31-9fbe-3460b88e6d01", type:"FlowRelationship", name:decodeURL("Publish+START_HARVEST_APIs"), documentation:decodeURL(""), sourceid:"808ca278-207e-400f-9d7f-941c15969f6b", targetid:"c2666dd2-8134-4ca6-9bda-84cceee56997"});
+									dataFoldersContent.push({folderid:"d7e9ea52-a97f-4167-9f18-60bd5702f1c7", contentid:"61b43606-8f85-487a-be0e-b9b342083631", contenttype:"CompositionRelationship"});
+										dataRelationships.push({id:"61b43606-8f85-487a-be0e-b9b342083631", type:"CompositionRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"76c7b739-917e-4066-9a3a-241cab1fd908", targetid:"4122f745-e6bd-4ed0-91d4-2a838b5c8db7"});
+									dataFoldersContent.push({folderid:"d7e9ea52-a97f-4167-9f18-60bd5702f1c7", contentid:"95ff983f-12ed-4b3c-ad7b-be6cff82c639", contenttype:"FlowRelationship"});
+										dataRelationships.push({id:"95ff983f-12ed-4b3c-ad7b-be6cff82c639", type:"FlowRelationship", name:decodeURL("Publish+START_HARVEST_APIs"), documentation:decodeURL(""), sourceid:"4122f745-e6bd-4ed0-91d4-2a838b5c8db7", targetid:"c2666dd2-8134-4ca6-9bda-84cceee56997"});
 
 								dataFoldersContent.push({folderid:"f4212a30-53d0-4c27-a682-4f88d6c692c8", contentid:"ebe8a4ad-c40a-41c4-917a-4ebcb1b5ad94", contenttype:"Folder"});
 								dataFolders.push({id:"ebe8a4ad-c40a-41c4-917a-4ebcb1b5ad94", type:"Folder", name:decodeURL("Views"), documentation:decodeURL("")});
@@ -11707,10 +11717,12 @@
 														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"3d3c260b-2882-4ff4-acab-61e4626dc8a7", contenttype:"DiagramModelArchimateObject"});
 														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"d8ae6813-2483-4986-aaa5-b1661fceaf46", contenttype:"DiagramModelArchimateObject"});
 														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"daf3fe14-8aa9-4efe-b9e7-b3b03f7379c1", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"4967fc81-c0cc-4d07-9d1c-1cec26d78306", contenttype:"DiagramModelArchimateObject"});
 												
 												dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"d25e9869-1510-4af4-8ca0-0d62b5ff32d4", contenttype:"DiagramModelArchimateObject"});
 														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"d946c4db-f0c8-4865-a10f-ae8943cbc340", contenttype:"DiagramModelArchimateObject"});
 														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"8e573956-5fe2-4e88-aae1-ad107b0d2177", contenttype:"DiagramModelArchimateObject"});
+														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"aab0b439-a534-4201-8298-4d417bc68111", contenttype:"DiagramModelArchimateObject"});
 												
 												dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"814bfc51-262c-4a9d-a827-ee2b41a7341a", contenttype:"DiagramModelArchimateObject"});
 														dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"805babe6-366d-4896-b888-01b4b9d4c3d2", contenttype:"DiagramModelArchimateObject"});
@@ -11725,6 +11737,7 @@
 																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"45cb7ca1-04ad-4ef8-97bb-5735118aed04", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"eab26b1b-bd8f-4c39-b373-3fd9fdda8dd8", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"c708f44a-8a77-4ac4-a485-6c08d898f64e", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"86919b0a-2d18-4332-a860-239c3e0d5324", contenttype:"DiagramModelArchimateConnection"});
 
 																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"3eb36647-df5a-4327-b7a1-1bb3e4f8a11b", contenttype:"DiagramModelArchimateConnection"});
 
@@ -11736,14 +11749,20 @@
 
 																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"bc1edecb-2fbb-4610-b7d5-56b2fecec3a2", contenttype:"DiagramModelArchimateConnection"});
 
+																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"5880d200-b21c-4e56-a616-c9ef2ba38c43", contenttype:"DiagramModelArchimateConnection"});
+
 												
 																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"734ab1b9-02bc-4604-98da-6e3c278d8a54", contenttype:"DiagramModelArchimateConnection"});
 																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"ce1cb21d-ef21-4992-9512-1106546f4869", contenttype:"DiagramModelArchimateConnection"});
+																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"e075dd85-ad28-4d1b-9019-a806e6899cc8", contenttype:"DiagramModelArchimateConnection"});
 
 																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"d3d94fc6-9838-4e63-ae6f-9a0ddc0f00e2", contenttype:"DiagramModelArchimateConnection"});
+																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"12592faf-3ad9-447c-b5fb-ee87c13fd146", contenttype:"DiagramModelArchimateConnection"});
 
 																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"80b75228-9025-4131-b55e-0e9b8ac56a99", contenttype:"DiagramModelArchimateConnection"});
 																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"46bee859-55fc-4da8-8f0f-c1fdce0cafcf", contenttype:"DiagramModelArchimateConnection"});
+
+																				dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"9bc1e026-7a09-4b05-ba81-bc3dc5c90873", contenttype:"DiagramModelArchimateConnection"});
 
 												
 																		dataViewsContent.push({viewid:"f48b3ecc-ae46-45c0-8e5a-bc73889e185c", contentid:"8f41fa39-f7b2-4096-adec-8cca79bf43e3", contenttype:"DiagramModelArchimateConnection"});
