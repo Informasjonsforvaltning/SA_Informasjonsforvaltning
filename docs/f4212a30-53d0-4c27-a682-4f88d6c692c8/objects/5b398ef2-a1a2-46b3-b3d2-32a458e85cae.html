@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title></title>
+	<title>Generic</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -22,10 +22,11 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b class="i18n-elementtype-AssociationRelationship"></b>
+               <b>Generic</b>
+
             <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-AssociationRelationship"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-AssociationRelationship" target="hint"></a>
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
 		</div>
 
 		<div class="panel-body root-panel-body">
@@ -40,20 +41,14 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-							<br>
-							<b class="i18n-relation-source"></b>
-								<a href="../elements/1df1312b-06a4-42b0-8cd2-e04e6cec87a5.html" target="element">
-									Contract
-								</a> <br>
-							<b class="i18n-relation-target"></b>
-								<a href="../elements/7bb99198-548e-4780-8ee1-0db181520798.html" target="element">
-								</a> <br>
-							<br>
 						<textarea id="docsrc" style="display:none"></textarea>
 						<div id="doctgt" style="white-space:pre-wrap"></div>
 					</div>
@@ -69,6 +64,51 @@
 							</tbody>
 						</table>
 					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/34ce8dcd-918a-4df9-80f3-c00d83c85f1f.html" target="element"> A client </a> </td>
+											    <td> <a href="../elements/34ce8dcd-918a-4df9-80f3-c00d83c85f1f.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c35fbdae-cfc3-4b3f-bf27-75007f8f44bf.html" target="element"> Standard </a> </td>
+											    <td> <a href="../elements/c35fbdae-cfc3-4b3f-bf27-75007f8f44bf.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/15a122a0-50e0-4fde-aa66-231d0ee70211.html" target="element">  </a> </td>
+																		<td> <a href="../elements/15a122a0-50e0-4fde-aa66-231d0ee70211.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/c35fbdae-cfc3-4b3f-bf27-75007f8f44bf.html" target="element"> Standard </a> </td>
+																		<td> <a href="../elements/562a5ee9-4369-4eeb-919a-f5af044e1532.html" target="element">  </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
