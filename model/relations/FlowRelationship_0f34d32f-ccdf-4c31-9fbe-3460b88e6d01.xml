@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Publish START_HARVEST_APIs"
+    id="0f34d32f-ccdf-4c31-9fbe-3460b88e6d01">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_808ca278-207e-400f-9d7f-941c15969f6b.xml#808ca278-207e-400f-9d7f-941c15969f6b"/>
+  <target
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_c2666dd2-8134-4ca6-9bda-84cceee56997.xml#c2666dd2-8134-4ca6-9bda-84cceee56997"/>
+</archimate:FlowRelationship>

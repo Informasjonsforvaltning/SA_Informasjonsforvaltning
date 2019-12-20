@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contract"
+    id="1df1312b-06a4-42b0-8cd2-e04e6cec87a5"
+    documentation="A contract in the form of e.g. gherkin"/>

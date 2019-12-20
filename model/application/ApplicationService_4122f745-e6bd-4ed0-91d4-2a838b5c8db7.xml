@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cron service"
+    id="4122f745-e6bd-4ed0-91d4-2a838b5c8db7"
+    documentation="Service that publish events based on date-time regularily event. (Start batch-jobs)"/>

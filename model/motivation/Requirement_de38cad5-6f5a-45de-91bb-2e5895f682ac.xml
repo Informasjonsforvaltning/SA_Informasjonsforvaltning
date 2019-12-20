@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contract"
+    id="de38cad5-6f5a-45de-91bb-2e5895f682ac"
+    documentation="A contract in the form of e.g. openAPI specification"/>
