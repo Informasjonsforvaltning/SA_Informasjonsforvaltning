@@ -7,8 +7,7 @@
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
@@ -45,7 +44,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none">Scenario 1 - API-med personopplysninger delegering
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Scenario 1 - API-med personopplysninger delegering
 Leikanger Kommune &#248;nsker at Evry skal bruke APIet for dem
 
 Leikanger kommune kj&#248;per et kommunalt fagsystem som skytjeneste fra leverand&#248;ren Evry. Systemet har behov for trydeopplysninger fra NAV sitt API.
@@ -53,8 +52,7 @@ Leikanger kommune kj&#248;per et kommunalt fagsystem som skytjeneste fra leveran
 Evry sitt system har allerede en integrasjon i Maskinporten, og har tilgang til aktuelt scope p&#229; vegne av andre kunder, men siden de mangler delegering, vil de ikke f&#229; tokens utstedt til Leikanger kommune.
 
 En bemyndiget ansatt i kommunen logger inn i Altinn, og delegerer tilgang til at Evry fr&#229; lov til &#229; opptre p&#229; vegne av dem, opp mot APIet. Dette er realisert ved at Altinn kaller selvbetjeningsAPIet for &#229; oppdatere Maskinporten sin delegeringstabell:
-</textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

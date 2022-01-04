@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Felles Datakatalog API"
+    name="data.norge.no API"
     id="8bbd63f4-b7b9-423d-9f47-0ad9ae2c82be"
     documentation="En komponent som består av de ulike katalogenes API og tilhørende administrative brukergrensesnitt."/>

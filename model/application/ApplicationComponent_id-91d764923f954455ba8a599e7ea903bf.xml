@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Datafabrikk nettsamfunn gui"
+    id="id-91d764923f954455ba8a599e7ea903bf"
+    documentation="Datafabrikkens presentasjonslag av &#xA;- forum-funksjonalitet levert av Digdirs Datalandsby-tjeneste,&#xA;- sin egen data-marked tjeneste, og evt&#xA;- koblinger til datasett-søk (feks promotering av datasett)"/>
